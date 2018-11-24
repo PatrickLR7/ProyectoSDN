@@ -1,0 +1,53 @@
+/* Encabezado de la pagina */
+.jumbotron {
+  color: white;
+  padding: 80px;
+  margin-bottom: 1px;
+  border: 3px;
+  border-style: solid;
+  border-color: rgb(20, 140, 177);
+}
+
+.jumbotron > h1, .h1{
+    font-size:  50px;
+}
+
+.jumbotron > p, .p{
+    font-size:  30px;
+}
+
+
+
+/* Barra izquierda */
+.sidebar {
+    background-color: rgb(7, 54, 66);
+    color: white;
+    font-size: 20px;
+    height: 100%;
+    border-right: 3px solid;
+    border-bottom: 3px solid;
+    border-left: 3px solid;
+    border-color: rgb(20, 140, 177);
+}
+
+/* Barra lateral */
+.nav-item > a {
+    color: white;
+}
+
+.table > thead {
+    background-color: rgb(20, 140, 177);
+    color: white;
+}
+
+.table > tbody > tr {
+    background-color: rgb(255, 255, 255);
+    color: black;
+
+}
+
+h3, .h3 {
+    color: white;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    padding: 10px
+}
