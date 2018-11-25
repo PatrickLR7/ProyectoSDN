@@ -6,10 +6,12 @@ import { AppComponent } from './app.component';
 
 import {HttpClientModule} from '@angular/common/http'
 import {ServicioDatos} from './servicios/servicioDatos.service';
+import { TablaGeneralComponent } from './tabla-general/tabla-general.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TablaGeneralComponent
   ],
   imports: [
     BrowserModule,
