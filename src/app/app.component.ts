@@ -12,6 +12,8 @@ export class AppComponent implements OnInit {
   private pruebaDatos;
 
   public tablaGeneral: Array<TablaGeneralFila>;
+  //public tablaEducacion: Array<TablaGeneralFila>;
+  //public tablaBlogs: Array<TablaGeneralFila>;
 
   constructor(private servDatos: ServicioDatos){
     this.pruebaDatos = [];
@@ -39,9 +41,9 @@ export class AppComponent implements OnInit {
        
        if(match.length > 3){
         const tablaGeneralFila = new TablaGeneralFila(
-            match[match.length-2].OXMTlv.value,
-            match[match.length-1].OXMTlv.value,
-            body[i].OFPFlowStats.byte_count,
+          match[match.length-2].OXMTlv.value,
+          match[match.length-1].OXMTlv.value,
+          body[i].OFPFlowStats.byte_count,
         );
         this.tablaGeneral.push(tablaGeneralFila);
        }

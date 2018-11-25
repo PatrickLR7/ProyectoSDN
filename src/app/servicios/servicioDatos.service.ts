@@ -3,7 +3,7 @@ import {HttpClient} from '@angular/common/http';
 
 @Injectable()
 export class ServicioDatos{
-    private getDatosURL = 'http://localhost:8080/datos.json';
+    private getDatosURL = 'http://localhost:8080/datosjsonprueba.json';
     private pruebaDatos = [];
 
     constructor(private http: HttpClient){
@@ -13,5 +13,4 @@ export class ServicioDatos{
     jsonServicio(): Promise<any>{
         return this.http.get(this.getDatosURL).toPromise();
     }
-
 }

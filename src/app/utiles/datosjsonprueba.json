@@ -1,0 +1,4241 @@
+{
+    "OFPFlowStatsReply": {
+       "body": [
+            {
+             "OFPFlowStats": {
+                "byte_count": 450,
+                "cookie": 0,
+                "duration_nsec": 374000000,
+                "duration_sec": 24,
+                "flags": 0,
+                "hard_timeout": 0,
+                "idle_timeout": 0,
+                "instructions": [
+                   {
+                      "OFPInstructionActions": {
+                         "actions": [
+                            {
+                               "OFPActionOutput": {
+                                  "len": 16,
+                                  "max_len": 65509,
+                                  "port": 2,
+                                  "type": 0
+                               }
+                            }
+                         ],
+                         "len": 24,
+                         "type": 4
+                      }
+                   }
+                ],
+                "length": 128,
+                "match": {
+                   "OFPMatch": {
+                      "length": 54,
+                      "oxm_fields": [
+                         {
+                            "OXMTlv": {
+                               "field": "in_port",
+                               "mask": null,
+                               "value": 1
+                            }
+                         },
+                         {
+                            "OXMTlv": {
+                               "field": "eth_src",
+                               "mask": null,
+                               "value": "00:00:00:00:00:01"
+                            }
+                         },
+                         {
+                            "OXMTlv": {
+                               "field": "eth_dst",
+                               "mask": null,
+                               "value": "00:00:00:00:00:02"
+                            }
+                         },
+                         {
+                            "OXMTlv": {
+                               "field": "eth_type",
+                               "mask": null,
+                               "value": 2048
+                            }
+                         },
+                         {
+                            "OXMTlv": {
+                               "field": "ipv4_src",
+                               "mask": null,
+                               "value": "10.0.0.1"
+                            }
+                         },
+                         {
+                            "OXMTlv": {
+                               "field": "ipv4_dst",
+                               "mask": null,
+                               "value": "10.0.0.2"
+                            }
+                         }
+                      ],
+                      "type": 1
+                   }
+                },
+                "packet_count": 0,
+                "priority": 1,
+                "table_id": 1
+             }
+            },
+            {
+             "OFPFlowStats": {
+                "byte_count": 365,
+                "cookie": 0,
+                "duration_nsec": 709000000,
+                "duration_sec": 21,
+                "flags": 0,
+                "hard_timeout": 0,
+                "idle_timeout": 0,
+                "instructions": [
+                   {
+                      "OFPInstructionActions": {
+                         "actions": [
+                            {
+                               "OFPActionOutput": {
+                                  "len": 16,
+                                  "max_len": 65509,
+                                  "port": 3,
+                                  "type": 0
+                               }
+                            }
+                         ],
+                         "len": 24,
+                         "type": 4
+                      }
+                   }
+                ],
+                "length": 128,
+                "match": {
+                   "OFPMatch": {
+                      "length": 54,
+                      "oxm_fields": [
+                         {
+                            "OXMTlv": {
+                               "field": "in_port",
+                               "mask": null,
+                               "value": 1
+                            }
+                         },
+                         {
+                            "OXMTlv": {
+                               "field": "eth_src",
+                               "mask": null,
+                               "value": "00:00:00:00:00:01"
+                            }
+                         },
+                         {
+                            "OXMTlv": {
+                               "field": "eth_dst",
+                               "mask": null,
+                               "value": "00:00:00:00:00:03"
+                            }
+                         },
+                         {
+                            "OXMTlv": {
+                               "field": "eth_type",
+                               "mask": null,
+                               "value": 2048
+                            }
+                         },
+                         {
+                            "OXMTlv": {
+                               "field": "ipv4_src",
+                               "mask": null,
+                               "value": "10.0.0.1"
+                            }
+                         },
+                         {
+                            "OXMTlv": {
+                               "field": "ipv4_dst",
+                               "mask": null,
+                               "value": "10.0.0.3"
+                            }
+                         }
+                      ],
+                      "type": 1
+                   }
+                },
+                "packet_count": 0,
+                "priority": 1,
+                "table_id": 1
+             }
+            },
+            {
+             "OFPFlowStats": {
+                "byte_count": 570,
+                "cookie": 0,
+                "duration_nsec": 711000000,
+                "duration_sec": 8,
+                "flags": 0,
+                "hard_timeout": 0,
+                "idle_timeout": 0,
+                "instructions": [
+                   {
+                      "OFPInstructionActions": {
+                         "actions": [
+                            {
+                               "OFPActionOutput": {
+                                  "len": 16,
+                                  "max_len": 65509,
+                                  "port": 3,
+                                  "type": 0
+                               }
+                            }
+                         ],
+                         "len": 24,
+                         "type": 4
+                      }
+                   }
+                ],
+                "length": 128,
+                "match": {
+                   "OFPMatch": {
+                      "length": 54,
+                      "oxm_fields": [
+                         {
+                            "OXMTlv": {
+                               "field": "in_port",
+                               "mask": null,
+                               "value": 2
+                            }
+                         },
+                         {
+                            "OXMTlv": {
+                               "field": "eth_src",
+                               "mask": null,
+                               "value": "00:00:00:00:00:02"
+                            }
+                         },
+                         {
+                            "OXMTlv": {
+                               "field": "eth_dst",
+                               "mask": null,
+                               "value": "00:00:00:00:00:03"
+                            }
+                         },
+                         {
+                            "OXMTlv": {
+                               "field": "eth_type",
+                               "mask": null,
+                               "value": 2048
+                            }
+                         },
+                         {
+                            "OXMTlv": {
+                               "field": "ipv4_src",
+                               "mask": null,
+                               "value": "10.0.0.2"
+                            }
+                         },
+                         {
+                            "OXMTlv": {
+                               "field": "ipv4_dst",
+                               "mask": null,
+                               "value": "10.0.0.3"
+                            }
+                         }
+                      ],
+                      "type": 1
+                   }
+                },
+                "packet_count": 0,
+                "priority": 1,
+                "table_id": 1
+             }
+            },
+            {
+             "OFPFlowStats": {
+                "byte_count": 1289,
+                "cookie": 0,
+                "duration_nsec": 711000000,
+                "duration_sec": 8,
+                "flags": 0,
+                "hard_timeout": 0,
+                "idle_timeout": 0,
+                "instructions": [
+                   {
+                      "OFPInstructionActions": {
+                         "actions": [
+                            {
+                               "OFPActionOutput": {
+                                  "len": 16,
+                                  "max_len": 65509,
+                                  "port": 3,
+                                  "type": 0
+                               }
+                            }
+                         ],
+                         "len": 24,
+                         "type": 4
+                      }
+                   }
+                ],
+                "length": 128,
+                "match": {
+                   "OFPMatch": {
+                      "length": 54,
+                      "oxm_fields": [
+                         {
+                            "OXMTlv": {
+                               "field": "in_port",
+                               "mask": null,
+                               "value": 2
+                            }
+                         },
+                         {
+                            "OXMTlv": {
+                               "field": "eth_src",
+                               "mask": null,
+                               "value": "00:00:00:00:00:02"
+                            }
+                         },
+                         {
+                            "OXMTlv": {
+                               "field": "eth_dst",
+                               "mask": null,
+                               "value": "00:00:00:00:00:03"
+                            }
+                         },
+                         {
+                            "OXMTlv": {
+                               "field": "eth_type",
+                               "mask": null,
+                               "value": 2048
+                            }
+                         },
+                         {
+                            "OXMTlv": {
+                               "field": "ipv4_src",
+                               "mask": null,
+                               "value": "10.0.0.11"
+                            }
+                         },
+                         {
+                            "OXMTlv": {
+                               "field": "ipv4_dst",
+                               "mask": null,
+                               "value": "10.0.0.30"
+                            }
+                         }
+                      ],
+                      "type": 1
+                   }
+                },
+                "packet_count": 0,
+                "priority": 1,
+                "table_id": 1
+             }
+            },
+            {
+             "OFPFlowStats": {
+                "byte_count": 345,
+                "cookie": 0,
+                "duration_nsec": 711000000,
+                "duration_sec": 8,
+                "flags": 0,
+                "hard_timeout": 0,
+                "idle_timeout": 0,
+                "instructions": [
+                   {
+                      "OFPInstructionActions": {
+                         "actions": [
+                            {
+                               "OFPActionOutput": {
+                                  "len": 16,
+                                  "max_len": 65509,
+                                  "port": 3,
+                                  "type": 0
+                               }
+                            }
+                         ],
+                         "len": 24,
+                         "type": 4
+                      }
+                   }
+                ],
+                "length": 128,
+                "match": {
+                   "OFPMatch": {
+                      "length": 54,
+                      "oxm_fields": [
+                         {
+                            "OXMTlv": {
+                               "field": "in_port",
+                               "mask": null,
+                               "value": 2
+                            }
+                         },
+                         {
+                            "OXMTlv": {
+                               "field": "eth_src",
+                               "mask": null,
+                               "value": "00:00:00:00:00:02"
+                            }
+                         },
+                         {
+                            "OXMTlv": {
+                               "field": "eth_dst",
+                               "mask": null,
+                               "value": "00:00:00:00:00:03"
+                            }
+                         },
+                         {
+                            "OXMTlv": {
+                               "field": "eth_type",
+                               "mask": null,
+                               "value": 2048
+                            }
+                         },
+                         {
+                            "OXMTlv": {
+                               "field": "ipv4_src",
+                               "mask": null,
+                               "value": "10.0.0.16"
+                            }
+                         },
+                         {
+                            "OXMTlv": {
+                               "field": "ipv4_dst",
+                               "mask": null,
+                               "value": "10.0.0.13"
+                            }
+                         }
+                      ],
+                      "type": 1
+                   }
+                },
+                "packet_count": 0,
+                "priority": 1,
+                "table_id": 1
+             }
+            },
+            {
+             "OFPFlowStats": {
+                "byte_count": 550,
+                "cookie": 0,
+                "duration_nsec": 711000000,
+                "duration_sec": 8,
+                "flags": 0,
+                "hard_timeout": 0,
+                "idle_timeout": 0,
+                "instructions": [
+                   {
+                      "OFPInstructionActions": {
+                         "actions": [
+                            {
+                               "OFPActionOutput": {
+                                  "len": 16,
+                                  "max_len": 65509,
+                                  "port": 3,
+                                  "type": 0
+                               }
+                            }
+                         ],
+                         "len": 24,
+                         "type": 4
+                      }
+                   }
+                ],
+                "length": 128,
+                "match": {
+                   "OFPMatch": {
+                      "length": 54,
+                      "oxm_fields": [
+                         {
+                            "OXMTlv": {
+                               "field": "in_port",
+                               "mask": null,
+                               "value": 2
+                            }
+                         },
+                         {
+                            "OXMTlv": {
+                               "field": "eth_src",
+                               "mask": null,
+                               "value": "00:00:00:00:00:02"
+                            }
+                         },
+                         {
+                            "OXMTlv": {
+                               "field": "eth_dst",
+                               "mask": null,
+                               "value": "00:00:00:00:00:03"
+                            }
+                         },
+                         {
+                            "OXMTlv": {
+                               "field": "eth_type",
+                               "mask": null,
+                               "value": 2048
+                            }
+                         },
+                         {
+                            "OXMTlv": {
+                               "field": "ipv4_src",
+                               "mask": null,
+                               "value": "10.0.0.42"
+                            }
+                         },
+                         {
+                            "OXMTlv": {
+                               "field": "ipv4_dst",
+                               "mask": null,
+                               "value": "10.0.0.24"
+                            }
+                         }
+                      ],
+                      "type": 1
+                   }
+                },
+                "packet_count": 0,
+                "priority": 1,
+                "table_id": 1
+             }  
+            },
+            {
+             "OFPFlowStats": {
+                "byte_count": 284,
+                "cookie": 0,
+                "duration_nsec": 374000000,
+                "duration_sec": 24,
+                "flags": 0,
+                "hard_timeout": 0,
+                "idle_timeout": 0,
+                "instructions": [
+                    {
+                        "OFPInstructionActions": {
+                            "actions": [
+                               {
+                                  "OFPActionOutput": {
+                                     "len": 16,
+                                     "max_len": 65509,
+                                     "port": 2,
+                                     "type": 0
+                                  }
+                               }
+                            ],
+                            "len": 24,
+                            "type": 4
+                         }
+                      }
+                   ],
+                   "length": 128,
+                   "match": {
+                      "OFPMatch": {
+                         "length": 54,
+                         "oxm_fields": [
+                            {
+                               "OXMTlv": {
+                                  "field": "in_port",
+                                  "mask": null,
+                                  "value": 1
+                               }
+                            },
+                            {
+                               "OXMTlv": {
+                                  "field": "eth_src",
+                                  "mask": null,
+                                  "value": "00:00:00:00:00:01"
+                               }
+                            },
+                            {
+                               "OXMTlv": {
+                                  "field": "eth_dst",
+                                  "mask": null,
+                                  "value": "00:00:00:00:00:02"
+                               }
+                            },
+                            {
+                               "OXMTlv": {
+                                  "field": "eth_type",
+                                  "mask": null,
+                                  "value": 2048
+                               }
+                            },
+                            {
+                               "OXMTlv": {
+                                  "field": "ipv4_src",
+                                  "mask": null,
+                                  "value": "10.0.0.12"
+                               }
+                            },
+                            {
+                               "OXMTlv": {
+                                  "field": "ipv4_dst",
+                                  "mask": null,
+                                  "value": "10.0.0.22"
+                               }
+                            }
+                         ],
+                         "type": 1
+                      }
+                   },
+                   "packet_count": 0,
+                   "priority": 1,
+                   "table_id": 1
+                }
+            },
+            {
+             "OFPFlowStats": {
+                "byte_count": 843,
+                "cookie": 0,
+                "duration_nsec": 374000000,
+                "duration_sec": 24,
+                "flags": 0,
+                "hard_timeout": 0,
+                "idle_timeout": 0,
+                "instructions": [
+                    {
+                        "OFPInstructionActions": {
+                            "actions": [
+                               {
+                                  "OFPActionOutput": {
+                                     "len": 16,
+                                     "max_len": 65509,
+                                     "port": 2,
+                                     "type": 0
+                                  }
+                               }
+                            ],
+                            "len": 24,
+                            "type": 4
+                         }
+                      }
+                   ],
+                   "length": 128,
+                   "match": {
+                      "OFPMatch": {
+                         "length": 54,
+                         "oxm_fields": [
+                            {
+                               "OXMTlv": {
+                                  "field": "in_port",
+                                  "mask": null,
+                                  "value": 1
+                               }
+                            },
+                            {
+                               "OXMTlv": {
+                                  "field": "eth_src",
+                                  "mask": null,
+                                  "value": "00:00:00:00:00:01"
+                               }
+                            },
+                            {
+                               "OXMTlv": {
+                                  "field": "eth_dst",
+                                  "mask": null,
+                                  "value": "00:00:00:00:00:02"
+                               }
+                            },
+                            {
+                               "OXMTlv": {
+                                  "field": "eth_type",
+                                  "mask": null,
+                                  "value": 2048
+                               }
+                            },
+                            {
+                               "OXMTlv": {
+                                  "field": "ipv4_src",
+                                  "mask": null,
+                                  "value": "10.0.0.86"
+                               }
+                            },
+                            {
+                               "OXMTlv": {
+                                  "field": "ipv4_dst",
+                                  "mask": null,
+                                  "value": "10.0.0.93"
+                               }
+                            }
+                         ],
+                         "type": 1
+                      }
+                   },
+                   "packet_count": 0,
+                   "priority": 1,
+                   "table_id": 1
+                }
+               },
+               {
+                 "OFPFlowStats": {
+                    "byte_count": 1230,
+                    "cookie": 0,
+                    "duration_nsec": 374000000,
+                    "duration_sec": 24,
+                    "flags": 0,
+                    "hard_timeout": 0,
+                    "idle_timeout": 0,
+                    "instructions": [
+                       {
+                          "OFPInstructionActions": {
+                             "actions": [
+                                {
+                                   "OFPActionOutput": {
+                                      "len": 16,
+                                      "max_len": 65509,
+                                      "port": 2,
+                                      "type": 0
+                                   }
+                                }
+                             ],
+                             "len": 24,
+                             "type": 4
+                           }
+                        }
+                     ],
+                     "length": 128,
+                     "match": {
+                        "OFPMatch": {
+                           "length": 54,
+                           "oxm_fields": [
+                              {
+                                 "OXMTlv": {
+                                    "field": "in_port",
+                                    "mask": null,
+                                    "value": 1
+                                 }
+                              },
+                              {
+                                 "OXMTlv": {
+                                    "field": "eth_src",
+                                    "mask": null,
+                                    "value": "00:00:00:00:00:01"
+                                 }
+                              },
+                              {
+                                 "OXMTlv": {
+                                    "field": "eth_dst",
+                                    "mask": null,
+                                    "value": "00:00:00:00:00:02"
+                                 }
+                              },
+                              {
+                                 "OXMTlv": {
+                                    "field": "eth_type",
+                                    "mask": null,
+                                    "value": 2048
+                                 }
+                              },
+                              {
+                                 "OXMTlv": {
+                                    "field": "ipv4_src",
+                                    "mask": null,
+                                    "value": "10.0.0.65"
+                                 }
+                              },
+                              {
+                                 "OXMTlv": {
+                                    "field": "ipv4_dst",
+                                    "mask": null,
+                                    "value": "10.0.0.41"
+                                 }
+                              }
+                           ],
+                           "type": 1
+                        }
+                     },
+                     "packet_count": 0,
+                     "priority": 1,
+                     "table_id": 1
+                  }
+                 },
+                 {
+                    "OFPFlowStats": {
+                       "byte_count": 4375,
+                       "cookie": 0,
+                       "duration_nsec": 374000000,
+                       "duration_sec": 24,
+                       "flags": 0,
+                       "hard_timeout": 0,
+                       "idle_timeout": 0,
+                       "instructions": [
+                          {
+                             "OFPInstructionActions": {
+                                "actions": [
+                                   {
+                                      "OFPActionOutput": {
+                                         "len": 16,
+                                         "max_len": 65509,
+                                         "port": 2,
+                                         "type": 0
+                                      }
+                                   }
+                                ],
+                                "len": 24,
+                                "type": 4
+                             }
+                          }
+                       ],
+                       "length": 128,
+                       "match": {
+                          "OFPMatch": {
+                             "length": 54,
+                             "oxm_fields": [
+                                {
+                                   "OXMTlv": {
+                                      "field": "in_port",
+                                      "mask": null,
+                                      "value": 1
+                                   }
+                                },
+                                {
+                                   "OXMTlv": {
+                                      "field": "eth_src",
+                                      "mask": null,
+                                      "value": "00:00:00:00:00:01"
+                                   }
+                                },
+                                {
+                                   "OXMTlv": {
+                                      "field": "eth_dst",
+                                      "mask": null,
+                                      "value": "00:00:00:00:00:02"
+                                   }
+                                },
+                                {
+                                   "OXMTlv": {
+                                      "field": "eth_type",
+                                      "mask": null,
+                                      "value": 2048
+                                   }
+                                },
+                                {
+                                   "OXMTlv": {
+                                      "field": "ipv4_src",
+                                      "mask": null,
+                                      "value": "10.0.0.71"
+                                   }
+                                },
+                                {
+                                   "OXMTlv": {
+                                      "field": "ipv4_dst",
+                                      "mask": null,
+                                      "value": "10.0.0.18"
+                                   }
+                                }
+                             ],
+                             "type": 1
+                          }
+                       },
+                       "packet_count": 0,
+                       "priority": 1,
+                       "table_id": 1
+                    }
+                   },   
+                   {
+                     "OFPFlowStats": {
+                        "byte_count": 234,
+                        "cookie": 0,
+                        "duration_nsec": 374000000,
+                        "duration_sec": 24,
+                        "flags": 0,
+                        "hard_timeout": 0,
+                        "idle_timeout": 0,
+                        "instructions": [
+                           {
+                              "OFPInstructionActions": {
+                                 "actions": [
+                                    {
+                                       "OFPActionOutput": {
+                                          "len": 16,
+                                          "max_len": 65509,
+                                          "port": 2,
+                                          "type": 0
+                                       }
+                                    }
+                                 ],
+                                 "len": 24,
+                                 "type": 4
+                              }
+                           }
+                        ],
+                        "length": 128,
+                        "match": {
+                           "OFPMatch": {
+                              "length": 54,
+                              "oxm_fields": [
+                                 {
+                                    "OXMTlv": {
+                                       "field": "in_port",
+                                       "mask": null,
+                                       "value": 1
+                                    }
+                                 },
+                                 {
+                                    "OXMTlv": {
+                                       "field": "eth_src",
+                                       "mask": null,
+                                       "value": "00:00:00:00:00:01"
+                                    }
+                                 },
+                                 {
+                                    "OXMTlv": {
+                                       "field": "eth_dst",
+                                       "mask": null,
+                                       "value": "00:00:00:00:00:02"
+                                    }
+                                 },
+                                 {
+                                    "OXMTlv": {
+                                       "field": "eth_type",
+                                       "mask": null,
+                                       "value": 2048
+                                    }
+                                 },
+                                 {
+                                    "OXMTlv": {
+                                       "field": "ipv4_src",
+                                       "mask": null,
+                                       "value": "10.0.0.63"
+                                    }
+                                 },
+                                 {
+                                    "OXMTlv": {
+                                       "field": "ipv4_dst",
+                                       "mask": null,
+                                       "value": "10.0.0.61"
+                                    }
+                                 }
+                              ],
+                              "type": 1
+                           }
+                        },
+                        "packet_count": 0,
+                        "priority": 1,
+                        "table_id": 1
+                     }
+                    },
+                    {
+                        "OFPFlowStats": {
+                           "byte_count": 113,
+                           "cookie": 0,
+                           "duration_nsec": 374000000,
+                           "duration_sec": 24,
+                           "flags": 0,
+                           "hard_timeout": 0,
+                           "idle_timeout": 0,
+                           "instructions": [
+                              {
+                                 "OFPInstructionActions": {
+                                    "actions": [
+                                       {
+                                          "OFPActionOutput": {
+                                             "len": 16,
+                                             "max_len": 65509,
+                                             "port": 2,
+                                             "type": 0
+                                          }
+                                       }
+                                    ],
+                                    "len": 24,
+                                    "type": 4
+                                 }
+                              }
+                           ],
+                           "length": 128,
+                           "match": {
+                              "OFPMatch": {
+                                 "length": 54,
+                                 "oxm_fields": [
+                                    {
+                                       "OXMTlv": {
+                                          "field": "in_port",
+                                          "mask": null,
+                                          "value": 1
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_src",
+                                          "mask": null,
+                                          "value": "00:00:00:00:00:01"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_dst",
+                                          "mask": null,
+                                          "value": "00:00:00:00:00:02"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_type",
+                                          "mask": null,
+                                          "value": 2048
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "ipv4_src",
+                                          "mask": null,
+                                          "value": "10.0.0.67"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "ipv4_dst",
+                                          "mask": null,
+                                          "value": "10.0.0.24"
+                                       }
+                                    }
+                                 ],
+                                 "type": 1
+                              }
+                           },
+                           "packet_count": 0,
+                           "priority": 1,
+                           "table_id": 1
+                        }
+                       },
+                       {
+                        "OFPFlowStats": {
+                           "byte_count": 1524,
+                           "cookie": 0,
+                           "duration_nsec": 374000000,
+                           "duration_sec": 24,
+                           "flags": 0,
+                           "hard_timeout": 0,
+                           "idle_timeout": 0,
+                           "instructions": [
+                              {
+                                 "OFPInstructionActions": {
+                                    "actions": [
+                                       {
+                                          "OFPActionOutput": {
+                                             "len": 16,
+                                             "max_len": 65509,
+                                             "port": 2,
+                                             "type": 0
+                                          }
+                                       }
+                                    ],
+                                    "len": 24,
+                                    "type": 4
+                                 }
+                              }
+                           ],
+                           "length": 128,
+                           "match": {
+                              "OFPMatch": {
+                                 "length": 54,
+                                 "oxm_fields": [
+                                    {
+                                       "OXMTlv": {
+                                          "field": "in_port",
+                                          "mask": null,
+                                          "value": 1
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_src",
+                                          "mask": null,
+                                          "value": "00:00:00:00:00:01"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_dst",
+                                          "mask": null,
+                                          "value": "00:00:00:00:00:02"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_type",
+                                          "mask": null,
+                                          "value": 2048
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "ipv4_src",
+                                          "mask": null,
+                                          "value": "10.0.0.8"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "ipv4_dst",
+                                          "mask": null,
+                                          "value": "10.0.0.11"
+                                       }
+                                    }
+                                 ],
+                                 "type": 1
+                              }
+                           },
+                           "packet_count": 0,
+                           "priority": 1,
+                           "table_id": 1
+                        }
+                       },
+                       {
+                        "OFPFlowStats": {
+                           "byte_count": 265,
+                           "cookie": 0,
+                           "duration_nsec": 374000000,
+                           "duration_sec": 24,
+                           "flags": 0,
+                           "hard_timeout": 0,
+                           "idle_timeout": 0,
+                           "instructions": [
+                              {
+                                 "OFPInstructionActions": {
+                                    "actions": [
+                                       {
+                                          "OFPActionOutput": {
+                                             "len": 16,
+                                             "max_len": 65509,
+                                             "port": 2,
+                                             "type": 0
+                                          }
+                                       }
+                                    ],
+                                    "len": 24,
+                                    "type": 4
+                                 }
+                              }
+                           ],
+                           "length": 128,
+                           "match": {
+                              "OFPMatch": {
+                                 "length": 54,
+                                 "oxm_fields": [
+                                    {
+                                       "OXMTlv": {
+                                          "field": "in_port",
+                                          "mask": null,
+                                          "value": 1
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_src",
+                                          "mask": null,
+                                          "value": "00:00:00:00:00:01"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_dst",
+                                          "mask": null,
+                                          "value": "00:00:00:00:00:02"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_type",
+                                          "mask": null,
+                                          "value": 2048
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "ipv4_src",
+                                          "mask": null,
+                                          "value": "10.0.0.11"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "ipv4_dst",
+                                          "mask": null,
+                                          "value": "10.0.0.10"
+                                       }
+                                    }
+                                 ],
+                                 "type": 1
+                              }
+                           },
+                           "packet_count": 0,
+                           "priority": 1,
+                           "table_id": 1
+                        }
+                       },
+                       {
+                        "OFPFlowStats": {
+                           "byte_count": 738,
+                           "cookie": 0,
+                           "duration_nsec": 374000000,
+                           "duration_sec": 24,
+                           "flags": 0,
+                           "hard_timeout": 0,
+                           "idle_timeout": 0,
+                           "instructions": [
+                              {
+                                 "OFPInstructionActions": {
+                                    "actions": [
+                                       {
+                                          "OFPActionOutput": {
+                                             "len": 16,
+                                             "max_len": 65509,
+                                             "port": 2,
+                                             "type": 0
+                                          }
+                                       }
+                                    ],
+                                    "len": 24,
+                                    "type": 4
+                                 }
+                              }
+                           ],
+                           "length": 128,
+                           "match": {
+                              "OFPMatch": {
+                                 "length": 54,
+                                 "oxm_fields": [
+                                    {
+                                       "OXMTlv": {
+                                          "field": "in_port",
+                                          "mask": null,
+                                          "value": 1
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_src",
+                                          "mask": null,
+                                          "value": "00:00:00:00:00:01"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_dst",
+                                          "mask": null,
+                                          "value": "00:00:00:00:00:02"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_type",
+                                          "mask": null,
+                                          "value": 2048
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "ipv4_src",
+                                          "mask": null,
+                                          "value": "10.0.0.57"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "ipv4_dst",
+                                          "mask": null,
+                                          "value": "10.0.0.47"
+                                       }
+                                    }
+                                 ],
+                                 "type": 1
+                              }
+                           },
+                           "packet_count": 0,
+                           "priority": 1,
+                           "table_id": 1
+                        }
+                       },
+                       {
+                        "OFPFlowStats": {
+                           "byte_count": 780,
+                           "cookie": 0,
+                           "duration_nsec": 374000000,
+                           "duration_sec": 24,
+                           "flags": 0,
+                           "hard_timeout": 0,
+                           "idle_timeout": 0,
+                           "instructions": [
+                              {
+                                 "OFPInstructionActions": {
+                                    "actions": [
+                                       {
+                                          "OFPActionOutput": {
+                                             "len": 16,
+                                             "max_len": 65509,
+                                             "port": 2,
+                                             "type": 0
+                                          }
+                                       }
+                                    ],
+                                    "len": 24,
+                                    "type": 4
+                                 }
+                              }
+                           ],
+                           "length": 128,
+                           "match": {
+                              "OFPMatch": {
+                                 "length": 54,
+                                 "oxm_fields": [
+                                    {
+                                       "OXMTlv": {
+                                          "field": "in_port",
+                                          "mask": null,
+                                          "value": 1
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_src",
+                                          "mask": null,
+                                          "value": "00:00:00:00:00:01"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_dst",
+                                          "mask": null,
+                                          "value": "00:00:00:00:00:02"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_type",
+                                          "mask": null,
+                                          "value": 2048
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "ipv4_src",
+                                          "mask": null,
+                                          "value": "10.0.0.45"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "ipv4_dst",
+                                          "mask": null,
+                                          "value": "10.0.0.78"
+                                       }
+                                    }
+                                 ],
+                                 "type": 1
+                              }
+                           },
+                           "packet_count": 0,
+                           "priority": 1,
+                           "table_id": 1
+                        }
+                       },
+                       {
+                        "OFPFlowStats": {
+                           "byte_count": 198,
+                           "cookie": 0,
+                           "duration_nsec": 374000000,
+                           "duration_sec": 24,
+                           "flags": 0,
+                           "hard_timeout": 0,
+                           "idle_timeout": 0,
+                           "instructions": [
+                              {
+                                 "OFPInstructionActions": {
+                                    "actions": [
+                                       {
+                                          "OFPActionOutput": {
+                                             "len": 16,
+                                             "max_len": 65509,
+                                             "port": 2,
+                                             "type": 0
+                                          }
+                                       }
+                                    ],
+                                    "len": 24,
+                                    "type": 4
+                                 }
+                              }
+                           ],
+                           "length": 128,
+                           "match": {
+                              "OFPMatch": {
+                                 "length": 54,
+                                 "oxm_fields": [
+                                    {
+                                       "OXMTlv": {
+                                          "field": "in_port",
+                                          "mask": null,
+                                          "value": 1
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_src",
+                                          "mask": null,
+                                          "value": "00:00:00:00:00:01"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_dst",
+                                          "mask": null,
+                                          "value": "00:00:00:00:00:02"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_type",
+                                          "mask": null,
+                                          "value": 2048
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "ipv4_src",
+                                          "mask": null,
+                                          "value": "10.0.0.74"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "ipv4_dst",
+                                          "mask": null,
+                                          "value": "10.0.0.23"
+                                       }
+                                    }
+                                 ],
+                                 "type": 1
+                              }
+                           },
+                           "packet_count": 0,
+                           "priority": 1,
+                           "table_id": 1
+                        }
+                       },
+                       {
+                        "OFPFlowStats": {
+                           "byte_count": 968,
+                           "cookie": 0,
+                           "duration_nsec": 374000000,
+                           "duration_sec": 24,
+                           "flags": 0,
+                           "hard_timeout": 0,
+                           "idle_timeout": 0,
+                           "instructions": [
+                              {
+                                 "OFPInstructionActions": {
+                                    "actions": [
+                                       {
+                                          "OFPActionOutput": {
+                                             "len": 16,
+                                             "max_len": 65509,
+                                             "port": 2,
+                                             "type": 0
+                                          }
+                                       }
+                                    ],
+                                    "len": 24,
+                                    "type": 4
+                                 }
+                              }
+                           ],
+                           "length": 128,
+                           "match": {
+                              "OFPMatch": {
+                                 "length": 54,
+                                 "oxm_fields": [
+                                    {
+                                       "OXMTlv": {
+                                          "field": "in_port",
+                                          "mask": null,
+                                          "value": 1
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_src",
+                                          "mask": null,
+                                          "value": "00:00:00:00:00:01"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_dst",
+                                          "mask": null,
+                                          "value": "00:00:00:00:00:02"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_type",
+                                          "mask": null,
+                                          "value": 2048
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "ipv4_src",
+                                          "mask": null,
+                                          "value": "10.0.0.11"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "ipv4_dst",
+                                          "mask": null,
+                                          "value": "10.0.0.35"
+                                       }
+                                    }
+                                 ],
+                                 "type": 1
+                              }
+                           },
+                           "packet_count": 0,
+                           "priority": 1,
+                           "table_id": 1
+                        }
+                       },
+                       {
+                        "OFPFlowStats": {
+                           "byte_count": 1723,
+                           "cookie": 0,
+                           "duration_nsec": 374000000,
+                           "duration_sec": 24,
+                           "flags": 0,
+                           "hard_timeout": 0,
+                           "idle_timeout": 0,
+                           "instructions": [
+                              {
+                                 "OFPInstructionActions": {
+                                    "actions": [
+                                       {
+                                          "OFPActionOutput": {
+                                             "len": 16,
+                                             "max_len": 65509,
+                                             "port": 2,
+                                             "type": 0
+                                          }
+                                       }
+                                    ],
+                                    "len": 24,
+                                    "type": 4
+                                 }
+                              }
+                           ],
+                           "length": 128,
+                           "match": {
+                              "OFPMatch": {
+                                 "length": 54,
+                                 "oxm_fields": [
+                                    {
+                                       "OXMTlv": {
+                                          "field": "in_port",
+                                          "mask": null,
+                                          "value": 1
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_src",
+                                          "mask": null,
+                                          "value": "00:00:00:00:00:01"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_dst",
+                                          "mask": null,
+                                          "value": "00:00:00:00:00:02"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_type",
+                                          "mask": null,
+                                          "value": 2048
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "ipv4_src",
+                                          "mask": null,
+                                          "value": "10.0.0.59"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "ipv4_dst",
+                                          "mask": null,
+                                          "value": "10.0.0.97"
+                                       }
+                                    }
+                                 ],
+                                 "type": 1
+                              }
+                           },
+                           "packet_count": 0,
+                           "priority": 1,
+                           "table_id": 1
+                        }
+                       },
+                       {
+                        "OFPFlowStats": {
+                           "byte_count": 847,
+                           "cookie": 0,
+                           "duration_nsec": 374000000,
+                           "duration_sec": 24,
+                           "flags": 0,
+                           "hard_timeout": 0,
+                           "idle_timeout": 0,
+                           "instructions": [
+                              {
+                                 "OFPInstructionActions": {
+                                    "actions": [
+                                       {
+                                          "OFPActionOutput": {
+                                             "len": 16,
+                                             "max_len": 65509,
+                                             "port": 2,
+                                             "type": 0
+                                          }
+                                       }
+                                    ],
+                                    "len": 24,
+                                    "type": 4
+                                 }
+                              }
+                           ],
+                           "length": 128,
+                           "match": {
+                              "OFPMatch": {
+                                 "length": 54,
+                                 "oxm_fields": [
+                                    {
+                                       "OXMTlv": {
+                                          "field": "in_port",
+                                          "mask": null,
+                                          "value": 1
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_src",
+                                          "mask": null,
+                                          "value": "00:00:00:00:00:01"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_dst",
+                                          "mask": null,
+                                          "value": "00:00:00:00:00:02"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_type",
+                                          "mask": null,
+                                          "value": 2048
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "ipv4_src",
+                                          "mask": null,
+                                          "value": "10.0.0.84"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "ipv4_dst",
+                                          "mask": null,
+                                          "value": "10.0.0.29"
+                                       }
+                                    }
+                                 ],
+                                 "type": 1
+                              }
+                           },
+                           "packet_count": 0,
+                           "priority": 1,
+                           "table_id": 1
+                        }
+                       },
+                       {
+                        "OFPFlowStats": {
+                           "byte_count": 126,
+                           "cookie": 0,
+                           "duration_nsec": 374000000,
+                           "duration_sec": 24,
+                           "flags": 0,
+                           "hard_timeout": 0,
+                           "idle_timeout": 0,
+                           "instructions": [
+                              {
+                                 "OFPInstructionActions": {
+                                    "actions": [
+                                       {
+                                          "OFPActionOutput": {
+                                             "len": 16,
+                                             "max_len": 65509,
+                                             "port": 2,
+                                             "type": 0
+                                          }
+                                       }
+                                    ],
+                                    "len": 24,
+                                    "type": 4
+                                 }
+                              }
+                           ],
+                           "length": 128,
+                           "match": {
+                              "OFPMatch": {
+                                 "length": 54,
+                                 "oxm_fields": [
+                                    {
+                                       "OXMTlv": {
+                                          "field": "in_port",
+                                          "mask": null,
+                                          "value": 1
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_src",
+                                          "mask": null,
+                                          "value": "00:00:00:00:00:01"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_dst",
+                                          "mask": null,
+                                          "value": "00:00:00:00:00:02"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_type",
+                                          "mask": null,
+                                          "value": 2048
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "ipv4_src",
+                                          "mask": null,
+                                          "value": "10.0.0.5"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "ipv4_dst",
+                                          "mask": null,
+                                          "value": "10.0.0.2"
+                                       }
+                                    }
+                                 ],
+                                 "type": 1
+                              }
+                           },
+                           "packet_count": 0,
+                           "priority": 1,
+                           "table_id": 1
+                        }
+                       },
+                       {
+                        "OFPFlowStats": {
+                           "byte_count": 567,
+                           "cookie": 0,
+                           "duration_nsec": 374000000,
+                           "duration_sec": 24,
+                           "flags": 0,
+                           "hard_timeout": 0,
+                           "idle_timeout": 0,
+                           "instructions": [
+                              {
+                                 "OFPInstructionActions": {
+                                    "actions": [
+                                       {
+                                          "OFPActionOutput": {
+                                             "len": 16,
+                                             "max_len": 65509,
+                                             "port": 2,
+                                             "type": 0
+                                          }
+                                       }
+                                    ],
+                                    "len": 24,
+                                    "type": 4
+                                 }
+                              }
+                           ],
+                           "length": 128,
+                           "match": {
+                              "OFPMatch": {
+                                 "length": 54,
+                                 "oxm_fields": [
+                                    {
+                                       "OXMTlv": {
+                                          "field": "in_port",
+                                          "mask": null,
+                                          "value": 1
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_src",
+                                          "mask": null,
+                                          "value": "00:00:00:00:00:01"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_dst",
+                                          "mask": null,
+                                          "value": "00:00:00:00:00:02"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_type",
+                                          "mask": null,
+                                          "value": 2048
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "ipv4_src",
+                                          "mask": null,
+                                          "value": "10.0.0.5"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "ipv4_dst",
+                                          "mask": null,
+                                          "value": "10.0.0.57"
+                                       }
+                                    }
+                                 ],
+                                 "type": 1
+                              }
+                           },
+                           "packet_count": 0,
+                           "priority": 1,
+                           "table_id": 1
+                        }
+                       },
+                       {
+                        "OFPFlowStats": {
+                           "byte_count": 1823,
+                           "cookie": 0,
+                           "duration_nsec": 374000000,
+                           "duration_sec": 24,
+                           "flags": 0,
+                           "hard_timeout": 0,
+                           "idle_timeout": 0,
+                           "instructions": [
+                              {
+                                 "OFPInstructionActions": {
+                                    "actions": [
+                                       {
+                                          "OFPActionOutput": {
+                                             "len": 16,
+                                             "max_len": 65509,
+                                             "port": 2,
+                                             "type": 0
+                                          }
+                                       }
+                                    ],
+                                    "len": 24,
+                                    "type": 4
+                                 }
+                              }
+                           ],
+                           "length": 128,
+                           "match": {
+                              "OFPMatch": {
+                                 "length": 54,
+                                 "oxm_fields": [
+                                    {
+                                       "OXMTlv": {
+                                          "field": "in_port",
+                                          "mask": null,
+                                          "value": 1
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_src",
+                                          "mask": null,
+                                          "value": "00:00:00:00:00:01"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_dst",
+                                          "mask": null,
+                                          "value": "00:00:00:00:00:02"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_type",
+                                          "mask": null,
+                                          "value": 2048
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "ipv4_src",
+                                          "mask": null,
+                                          "value": "10.0.0.49"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "ipv4_dst",
+                                          "mask": null,
+                                          "value": "10.0.0.83"
+                                       }
+                                    }
+                                 ],
+                                 "type": 1
+                              }
+                           },
+                           "packet_count": 0,
+                           "priority": 1,
+                           "table_id": 1
+                        }
+                       },
+                       {
+                        "OFPFlowStats": {
+                           "byte_count": 890,
+                           "cookie": 0,
+                           "duration_nsec": 374000000,
+                           "duration_sec": 24,
+                           "flags": 0,
+                           "hard_timeout": 0,
+                           "idle_timeout": 0,
+                           "instructions": [
+                              {
+                                 "OFPInstructionActions": {
+                                    "actions": [
+                                       {
+                                          "OFPActionOutput": {
+                                             "len": 16,
+                                             "max_len": 65509,
+                                             "port": 2,
+                                             "type": 0
+                                          }
+                                       }
+                                    ],
+                                    "len": 24,
+                                    "type": 4
+                                 }
+                              }
+                           ],
+                           "length": 128,
+                           "match": {
+                              "OFPMatch": {
+                                 "length": 54,
+                                 "oxm_fields": [
+                                    {
+                                       "OXMTlv": {
+                                          "field": "in_port",
+                                          "mask": null,
+                                          "value": 1
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_src",
+                                          "mask": null,
+                                          "value": "00:00:00:00:00:01"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_dst",
+                                          "mask": null,
+                                          "value": "00:00:00:00:00:02"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_type",
+                                          "mask": null,
+                                          "value": 2048
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "ipv4_src",
+                                          "mask": null,
+                                          "value": "10.0.0.9"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "ipv4_dst",
+                                          "mask": null,
+                                          "value": "10.0.0.32"
+                                       }
+                                    }
+                                 ],
+                                 "type": 1
+                              }
+                           },
+                           "packet_count": 0,
+                           "priority": 1,
+                           "table_id": 1
+                        }
+                       },
+                       {
+                        "OFPFlowStats": {
+                           "byte_count": 948,
+                           "cookie": 0,
+                           "duration_nsec": 374000000,
+                           "duration_sec": 24,
+                           "flags": 0,
+                           "hard_timeout": 0,
+                           "idle_timeout": 0,
+                           "instructions": [
+                              {
+                                 "OFPInstructionActions": {
+                                    "actions": [
+                                       {
+                                          "OFPActionOutput": {
+                                             "len": 16,
+                                             "max_len": 65509,
+                                             "port": 2,
+                                             "type": 0
+                                          }
+                                       }
+                                    ],
+                                    "len": 24,
+                                    "type": 4
+                                 }
+                              }
+                           ],
+                           "length": 128,
+                           "match": {
+                              "OFPMatch": {
+                                 "length": 54,
+                                 "oxm_fields": [
+                                    {
+                                       "OXMTlv": {
+                                          "field": "in_port",
+                                          "mask": null,
+                                          "value": 1
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_src",
+                                          "mask": null,
+                                          "value": "00:00:00:00:00:01"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_dst",
+                                          "mask": null,
+                                          "value": "00:00:00:00:00:02"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_type",
+                                          "mask": null,
+                                          "value": 2048
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "ipv4_src",
+                                          "mask": null,
+                                          "value": "10.0.0.36"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "ipv4_dst",
+                                          "mask": null,
+                                          "value": "10.0.0.16"
+                                       }
+                                    }
+                                 ],
+                                 "type": 1
+                              }
+                           },
+                           "packet_count": 0,
+                           "priority": 1,
+                           "table_id": 1
+                        }
+                       },
+                       {
+                        "OFPFlowStats": {
+                           "byte_count": 813,
+                           "cookie": 0,
+                           "duration_nsec": 374000000,
+                           "duration_sec": 24,
+                           "flags": 0,
+                           "hard_timeout": 0,
+                           "idle_timeout": 0,
+                           "instructions": [
+                              {
+                                 "OFPInstructionActions": {
+                                    "actions": [
+                                       {
+                                          "OFPActionOutput": {
+                                             "len": 16,
+                                             "max_len": 65509,
+                                             "port": 2,
+                                             "type": 0
+                                          }
+                                       }
+                                    ],
+                                    "len": 24,
+                                    "type": 4
+                                 }
+                              }
+                           ],
+                           "length": 128,
+                           "match": {
+                              "OFPMatch": {
+                                 "length": 54,
+                                 "oxm_fields": [
+                                    {
+                                       "OXMTlv": {
+                                          "field": "in_port",
+                                          "mask": null,
+                                          "value": 1
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_src",
+                                          "mask": null,
+                                          "value": "00:00:00:00:00:01"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_dst",
+                                          "mask": null,
+                                          "value": "00:00:00:00:00:02"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_type",
+                                          "mask": null,
+                                          "value": 2048
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "ipv4_src",
+                                          "mask": null,
+                                          "value": "10.0.0.79"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "ipv4_dst",
+                                          "mask": null,
+                                          "value": "10.0.0.39"
+                                       }
+                                    }
+                                 ],
+                                 "type": 1
+                              }
+                           },
+                           "packet_count": 0,
+                           "priority": 1,
+                           "table_id": 1
+                        }
+                       },
+                       {
+                        "OFPFlowStats": {
+                           "byte_count": 3456,
+                           "cookie": 0,
+                           "duration_nsec": 374000000,
+                           "duration_sec": 24,
+                           "flags": 0,
+                           "hard_timeout": 0,
+                           "idle_timeout": 0,
+                           "instructions": [
+                              {
+                                 "OFPInstructionActions": {
+                                    "actions": [
+                                       {
+                                          "OFPActionOutput": {
+                                             "len": 16,
+                                             "max_len": 65509,
+                                             "port": 2,
+                                             "type": 0
+                                          }
+                                       }
+                                    ],
+                                    "len": 24,
+                                    "type": 4
+                                 }
+                              }
+                           ],
+                           "length": 128,
+                           "match": {
+                              "OFPMatch": {
+                                 "length": 54,
+                                 "oxm_fields": [
+                                    {
+                                       "OXMTlv": {
+                                          "field": "in_port",
+                                          "mask": null,
+                                          "value": 1
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_src",
+                                          "mask": null,
+                                          "value": "00:00:00:00:00:01"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_dst",
+                                          "mask": null,
+                                          "value": "00:00:00:00:00:02"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_type",
+                                          "mask": null,
+                                          "value": 2048
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "ipv4_src",
+                                          "mask": null,
+                                          "value": "10.0.0.20"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "ipv4_dst",
+                                          "mask": null,
+                                          "value": "10.0.0.76"
+                                       }
+                                    }
+                                 ],
+                                 "type": 1
+                              }
+                           },
+                           "packet_count": 0,
+                           "priority": 1,
+                           "table_id": 1
+                        }
+                       },        
+                       {
+                        "OFPFlowStats": {
+                           "byte_count": 123,
+                           "cookie": 0,
+                           "duration_nsec": 374000000,
+                           "duration_sec": 24,
+                           "flags": 0,
+                           "hard_timeout": 0,
+                           "idle_timeout": 0,
+                           "instructions": [
+                              {
+                                 "OFPInstructionActions": {
+                                    "actions": [
+                                       {
+                                          "OFPActionOutput": {
+                                             "len": 16,
+                                             "max_len": 65509,
+                                             "port": 2,
+                                             "type": 0
+                                          }
+                                       }
+                                    ],
+                                    "len": 24,
+                                    "type": 4
+                                 }
+                              }
+                           ],
+                           "length": 128,
+                           "match": {
+                              "OFPMatch": {
+                                 "length": 54,
+                                 "oxm_fields": [
+                                    {
+                                       "OXMTlv": {
+                                          "field": "in_port",
+                                          "mask": null,
+                                          "value": 1
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_src",
+                                          "mask": null,
+                                          "value": "00:00:00:00:00:01"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_dst",
+                                          "mask": null,
+                                          "value": "00:00:00:00:00:02"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_type",
+                                          "mask": null,
+                                          "value": 2048
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "ipv4_src",
+                                          "mask": null,
+                                          "value": "10.0.0.99"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "ipv4_dst",
+                                          "mask": null,
+                                          "value": "10.0.0.6"
+                                       }
+                                    }
+                                 ],
+                                 "type": 1
+                              }
+                           },
+                           "packet_count": 0,
+                           "priority": 1,
+                           "table_id": 1
+                        }
+                       },
+                       {
+                        "OFPFlowStats": {
+                           "byte_count": 999,
+                           "cookie": 0,
+                           "duration_nsec": 374000000,
+                           "duration_sec": 24,
+                           "flags": 0,
+                           "hard_timeout": 0,
+                           "idle_timeout": 0,
+                           "instructions": [
+                              {
+                                 "OFPInstructionActions": {
+                                    "actions": [
+                                       {
+                                          "OFPActionOutput": {
+                                             "len": 16,
+                                             "max_len": 65509,
+                                             "port": 2,
+                                             "type": 0
+                                          }
+                                       }
+                                    ],
+                                    "len": 24,
+                                    "type": 4
+                                 }
+                              }
+                           ],
+                           "length": 128,
+                           "match": {
+                              "OFPMatch": {
+                                 "length": 54,
+                                 "oxm_fields": [
+                                    {
+                                       "OXMTlv": {
+                                          "field": "in_port",
+                                          "mask": null,
+                                          "value": 1
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_src",
+                                          "mask": null,
+                                          "value": "00:00:00:00:00:01"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_dst",
+                                          "mask": null,
+                                          "value": "00:00:00:00:00:02"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_type",
+                                          "mask": null,
+                                          "value": 2048
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "ipv4_src",
+                                          "mask": null,
+                                          "value": "10.0.0.86"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "ipv4_dst",
+                                          "mask": null,
+                                          "value": "10.0.0.29"
+                                       }
+                                    }
+                                 ],
+                                 "type": 1
+                              }
+                           },
+                           "packet_count": 0,
+                           "priority": 1,
+                           "table_id": 1
+                        }
+                       },                                        
+                       {
+                        "OFPFlowStats": {
+                           "byte_count": 739,
+                           "cookie": 0,
+                           "duration_nsec": 374000000,
+                           "duration_sec": 24,
+                           "flags": 0,
+                           "hard_timeout": 0,
+                           "idle_timeout": 0,
+                           "instructions": [
+                              {
+                                 "OFPInstructionActions": {
+                                    "actions": [
+                                       {
+                                          "OFPActionOutput": {
+                                             "len": 16,
+                                             "max_len": 65509,
+                                             "port": 2,
+                                             "type": 0
+                                          }
+                                       }
+                                    ],
+                                    "len": 24,
+                                    "type": 4
+                                 }
+                              }
+                           ],
+                           "length": 128,
+                           "match": {
+                              "OFPMatch": {
+                                 "length": 54,
+                                 "oxm_fields": [
+                                    {
+                                       "OXMTlv": {
+                                          "field": "in_port",
+                                          "mask": null,
+                                          "value": 1
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_src",
+                                          "mask": null,
+                                          "value": "00:00:00:00:00:01"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_dst",
+                                          "mask": null,
+                                          "value": "00:00:00:00:00:02"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_type",
+                                          "mask": null,
+                                          "value": 2048
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "ipv4_src",
+                                          "mask": null,
+                                          "value": "10.0.0.53"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "ipv4_dst",
+                                          "mask": null,
+                                          "value": "10.0.0.67"
+                                       }
+                                    }
+                                 ],
+                                 "type": 1
+                              }
+                           },
+                           "packet_count": 0,
+                           "priority": 1,
+                           "table_id": 1
+                        }
+                       },
+                       {
+                        "OFPFlowStats": {
+                           "byte_count": 1720,
+                           "cookie": 0,
+                           "duration_nsec": 374000000,
+                           "duration_sec": 24,
+                           "flags": 0,
+                           "hard_timeout": 0,
+                           "idle_timeout": 0,
+                           "instructions": [
+                              {
+                                 "OFPInstructionActions": {
+                                    "actions": [
+                                       {
+                                          "OFPActionOutput": {
+                                             "len": 16,
+                                             "max_len": 65509,
+                                             "port": 2,
+                                             "type": 0
+                                          }
+                                       }
+                                    ],
+                                    "len": 24,
+                                    "type": 4
+                                 }
+                              }
+                           ],
+                           "length": 128,
+                           "match": {
+                              "OFPMatch": {
+                                 "length": 54,
+                                 "oxm_fields": [
+                                    {
+                                       "OXMTlv": {
+                                          "field": "in_port",
+                                          "mask": null,
+                                          "value": 1
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_src",
+                                          "mask": null,
+                                          "value": "00:00:00:00:00:01"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_dst",
+                                          "mask": null,
+                                          "value": "00:00:00:00:00:02"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_type",
+                                          "mask": null,
+                                          "value": 2048
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "ipv4_src",
+                                          "mask": null,
+                                          "value": "10.0.0.13"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "ipv4_dst",
+                                          "mask": null,
+                                          "value": "10.0.0.28"
+                                       }
+                                    }
+                                 ],
+                                 "type": 1
+                              }
+                           },
+                           "packet_count": 0,
+                           "priority": 1,
+                           "table_id": 1
+                        }
+                       },
+                       {
+                        "OFPFlowStats": {
+                           "byte_count": 1047,
+                           "cookie": 0,
+                           "duration_nsec": 374000000,
+                           "duration_sec": 24,
+                           "flags": 0,
+                           "hard_timeout": 0,
+                           "idle_timeout": 0,
+                           "instructions": [
+                              {
+                                 "OFPInstructionActions": {
+                                    "actions": [
+                                       {
+                                          "OFPActionOutput": {
+                                             "len": 16,
+                                             "max_len": 65509,
+                                             "port": 2,
+                                             "type": 0
+                                          }
+                                       }
+                                    ],
+                                    "len": 24,
+                                    "type": 4
+                                 }
+                              }
+                           ],
+                           "length": 128,
+                           "match": {
+                              "OFPMatch": {
+                                 "length": 54,
+                                 "oxm_fields": [
+                                    {
+                                       "OXMTlv": {
+                                          "field": "in_port",
+                                          "mask": null,
+                                          "value": 1
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_src",
+                                          "mask": null,
+                                          "value": "00:00:00:00:00:01"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_dst",
+                                          "mask": null,
+                                          "value": "00:00:00:00:00:02"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_type",
+                                          "mask": null,
+                                          "value": 2048
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "ipv4_src",
+                                          "mask": null,
+                                          "value": "10.0.0.54"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "ipv4_dst",
+                                          "mask": null,
+                                          "value": "10.0.0.86"
+                                       }
+                                    }
+                                 ],
+                                 "type": 1
+                              }
+                           },
+                           "packet_count": 0,
+                           "priority": 1,
+                           "table_id": 1
+                        }
+                       },
+                       {
+                        "OFPFlowStats": {
+                           "byte_count": 2837,
+                           "cookie": 0,
+                           "duration_nsec": 374000000,
+                           "duration_sec": 24,
+                           "flags": 0,
+                           "hard_timeout": 0,
+                           "idle_timeout": 0,
+                           "instructions": [
+                              {
+                                 "OFPInstructionActions": {
+                                    "actions": [
+                                       {
+                                          "OFPActionOutput": {
+                                             "len": 16,
+                                             "max_len": 65509,
+                                             "port": 2,
+                                             "type": 0
+                                          }
+                                       }
+                                    ],
+                                    "len": 24,
+                                    "type": 4
+                                 }
+                              }
+                           ],
+                           "length": 128,
+                           "match": {
+                              "OFPMatch": {
+                                 "length": 54,
+                                 "oxm_fields": [
+                                    {
+                                       "OXMTlv": {
+                                          "field": "in_port",
+                                          "mask": null,
+                                          "value": 1
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_src",
+                                          "mask": null,
+                                          "value": "00:00:00:00:00:01"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_dst",
+                                          "mask": null,
+                                          "value": "00:00:00:00:00:02"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_type",
+                                          "mask": null,
+                                          "value": 2048
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "ipv4_src",
+                                          "mask": null,
+                                          "value": "10.0.0.93"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "ipv4_dst",
+                                          "mask": null,
+                                          "value": "10.0.0.28"
+                                       }
+                                    }
+                                 ],
+                                 "type": 1
+                              }
+                           },
+                           "packet_count": 0,
+                           "priority": 1,
+                           "table_id": 1
+                        }
+                       },
+                       {
+                        "OFPFlowStats": {
+                           "byte_count": 495,
+                           "cookie": 0,
+                           "duration_nsec": 374000000,
+                           "duration_sec": 24,
+                           "flags": 0,
+                           "hard_timeout": 0,
+                           "idle_timeout": 0,
+                           "instructions": [
+                              {
+                                 "OFPInstructionActions": {
+                                    "actions": [
+                                       {
+                                          "OFPActionOutput": {
+                                             "len": 16,
+                                             "max_len": 65509,
+                                             "port": 2,
+                                             "type": 0
+                                          }
+                                       }
+                                    ],
+                                    "len": 24,
+                                    "type": 4
+                                 }
+                              }
+                           ],
+                           "length": 128,
+                           "match": {
+                              "OFPMatch": {
+                                 "length": 54,
+                                 "oxm_fields": [
+                                    {
+                                       "OXMTlv": {
+                                          "field": "in_port",
+                                          "mask": null,
+                                          "value": 1
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_src",
+                                          "mask": null,
+                                          "value": "00:00:00:00:00:01"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_dst",
+                                          "mask": null,
+                                          "value": "00:00:00:00:00:02"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_type",
+                                          "mask": null,
+                                          "value": 2048
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "ipv4_src",
+                                          "mask": null,
+                                          "value": "10.0.0.64"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "ipv4_dst",
+                                          "mask": null,
+                                          "value": "10.0.0.4"
+                                       }
+                                    }
+                                 ],
+                                 "type": 1
+                              }
+                           },
+                           "packet_count": 0,
+                           "priority": 1,
+                           "table_id": 1
+                        }
+                       },
+                       {
+                        "OFPFlowStats": {
+                           "byte_count": 389,
+                           "cookie": 0,
+                           "duration_nsec": 374000000,
+                           "duration_sec": 24,
+                           "flags": 0,
+                           "hard_timeout": 0,
+                           "idle_timeout": 0,
+                           "instructions": [
+                              {
+                                 "OFPInstructionActions": {
+                                    "actions": [
+                                       {
+                                          "OFPActionOutput": {
+                                             "len": 16,
+                                             "max_len": 65509,
+                                             "port": 2,
+                                             "type": 0
+                                          }
+                                       }
+                                    ],
+                                    "len": 24,
+                                    "type": 4
+                                 }
+                              }
+                           ],
+                           "length": 128,
+                           "match": {
+                              "OFPMatch": {
+                                 "length": 54,
+                                 "oxm_fields": [
+                                    {
+                                       "OXMTlv": {
+                                          "field": "in_port",
+                                          "mask": null,
+                                          "value": 1
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_src",
+                                          "mask": null,
+                                          "value": "00:00:00:00:00:01"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_dst",
+                                          "mask": null,
+                                          "value": "00:00:00:00:00:02"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_type",
+                                          "mask": null,
+                                          "value": 2048
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "ipv4_src",
+                                          "mask": null,
+                                          "value": "10.0.0.17"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "ipv4_dst",
+                                          "mask": null,
+                                          "value": "10.0.0.98"
+                                       }
+                                    }
+                                 ],
+                                 "type": 1
+                              }
+                           },
+                           "packet_count": 0,
+                           "priority": 1,
+                           "table_id": 1
+                        }
+                       },
+                       {
+                        "OFPFlowStats": {
+                           "byte_count": 4890,
+                           "cookie": 0,
+                           "duration_nsec": 374000000,
+                           "duration_sec": 24,
+                           "flags": 0,
+                           "hard_timeout": 0,
+                           "idle_timeout": 0,
+                           "instructions": [
+                              {
+                                 "OFPInstructionActions": {
+                                    "actions": [
+                                       {
+                                          "OFPActionOutput": {
+                                             "len": 16,
+                                             "max_len": 65509,
+                                             "port": 2,
+                                             "type": 0
+                                          }
+                                       }
+                                    ],
+                                    "len": 24,
+                                    "type": 4
+                                 }
+                              }
+                           ],
+                           "length": 128,
+                           "match": {
+                              "OFPMatch": {
+                                 "length": 54,
+                                 "oxm_fields": [
+                                    {
+                                       "OXMTlv": {
+                                          "field": "in_port",
+                                          "mask": null,
+                                          "value": 1
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_src",
+                                          "mask": null,
+                                          "value": "00:00:00:00:00:01"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_dst",
+                                          "mask": null,
+                                          "value": "00:00:00:00:00:02"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_type",
+                                          "mask": null,
+                                          "value": 2048
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "ipv4_src",
+                                          "mask": null,
+                                          "value": "10.0.0.50"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "ipv4_dst",
+                                          "mask": null,
+                                          "value": "10.0.0.81"
+                                       }
+                                    }
+                                 ],
+                                 "type": 1
+                              }
+                           },
+                           "packet_count": 0,
+                           "priority": 1,
+                           "table_id": 1
+                        }
+                       }, 
+                       {
+                        "OFPFlowStats": {
+                           "byte_count": 1788,
+                           "cookie": 0,
+                           "duration_nsec": 374000000,
+                           "duration_sec": 24,
+                           "flags": 0,
+                           "hard_timeout": 0,
+                           "idle_timeout": 0,
+                           "instructions": [
+                              {
+                                 "OFPInstructionActions": {
+                                    "actions": [
+                                       {
+                                          "OFPActionOutput": {
+                                             "len": 16,
+                                             "max_len": 65509,
+                                             "port": 2,
+                                             "type": 0
+                                          }
+                                       }
+                                    ],
+                                    "len": 24,
+                                    "type": 4
+                                 }
+                              }
+                           ],
+                           "length": 128,
+                           "match": {
+                              "OFPMatch": {
+                                 "length": 54,
+                                 "oxm_fields": [
+                                    {
+                                       "OXMTlv": {
+                                          "field": "in_port",
+                                          "mask": null,
+                                          "value": 1
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_src",
+                                          "mask": null,
+                                          "value": "00:00:00:00:00:01"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_dst",
+                                          "mask": null,
+                                          "value": "00:00:00:00:00:02"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_type",
+                                          "mask": null,
+                                          "value": 2048
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "ipv4_src",
+                                          "mask": null,
+                                          "value": "10.0.0.15"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "ipv4_dst",
+                                          "mask": null,
+                                          "value": "10.0.0.17"
+                                       }
+                                    }
+                                 ],
+                                 "type": 1
+                              }
+                           },
+                           "packet_count": 0,
+                           "priority": 1,
+                           "table_id": 1
+                        }
+                       }, 
+                       {
+                        "OFPFlowStats": {
+                           "byte_count": 859,
+                           "cookie": 0,
+                           "duration_nsec": 374000000,
+                           "duration_sec": 24,
+                           "flags": 0,
+                           "hard_timeout": 0,
+                           "idle_timeout": 0,
+                           "instructions": [
+                              {
+                                 "OFPInstructionActions": {
+                                    "actions": [
+                                       {
+                                          "OFPActionOutput": {
+                                             "len": 16,
+                                             "max_len": 65509,
+                                             "port": 2,
+                                             "type": 0
+                                          }
+                                       }
+                                    ],
+                                    "len": 24,
+                                    "type": 4
+                                 }
+                              }
+                           ],
+                           "length": 128,
+                           "match": {
+                              "OFPMatch": {
+                                 "length": 54,
+                                 "oxm_fields": [
+                                    {
+                                       "OXMTlv": {
+                                          "field": "in_port",
+                                          "mask": null,
+                                          "value": 1
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_src",
+                                          "mask": null,
+                                          "value": "00:00:00:00:00:01"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_dst",
+                                          "mask": null,
+                                          "value": "00:00:00:00:00:02"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_type",
+                                          "mask": null,
+                                          "value": 2048
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "ipv4_src",
+                                          "mask": null,
+                                          "value": "10.0.0.1"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "ipv4_dst",
+                                          "mask": null,
+                                          "value": "10.0.0.2"
+                                       }
+                                    }
+                                 ],
+                                 "type": 1
+                              }
+                           },
+                           "packet_count": 0,
+                           "priority": 1,
+                           "table_id": 1
+                        }
+                       },
+                       {
+                        "OFPFlowStats": {
+                           "byte_count": 5780,
+                           "cookie": 0,
+                           "duration_nsec": 374000000,
+                           "duration_sec": 24,
+                           "flags": 0,
+                           "hard_timeout": 0,
+                           "idle_timeout": 0,
+                           "instructions": [
+                              {
+                                 "OFPInstructionActions": {
+                                    "actions": [
+                                       {
+                                          "OFPActionOutput": {
+                                             "len": 16,
+                                             "max_len": 65509,
+                                             "port": 2,
+                                             "type": 0
+                                          }
+                                       }
+                                    ],
+                                    "len": 24,
+                                    "type": 4
+                                 }
+                              }
+                           ],
+                           "length": 128,
+                           "match": {
+                              "OFPMatch": {
+                                 "length": 54,
+                                 "oxm_fields": [
+                                    {
+                                       "OXMTlv": {
+                                          "field": "in_port",
+                                          "mask": null,
+                                          "value": 1
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_src",
+                                          "mask": null,
+                                          "value": "00:00:00:00:00:01"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_dst",
+                                          "mask": null,
+                                          "value": "00:00:00:00:00:02"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_type",
+                                          "mask": null,
+                                          "value": 2048
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "ipv4_src",
+                                          "mask": null,
+                                          "value": "10.0.0.34"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "ipv4_dst",
+                                          "mask": null,
+                                          "value": "10.0.0.39"
+                                       }
+                                    }
+                                 ],
+                                 "type": 1
+                              }
+                           },
+                           "packet_count": 0,
+                           "priority": 1,
+                           "table_id": 1
+                        }
+                       },   
+                       {
+                        "OFPFlowStats": {
+                           "byte_count": 450,
+                           "cookie": 0,
+                           "duration_nsec": 374000000,
+                           "duration_sec": 24,
+                           "flags": 0,
+                           "hard_timeout": 0,
+                           "idle_timeout": 0,
+                           "instructions": [
+                              {
+                                 "OFPInstructionActions": {
+                                    "actions": [
+                                       {
+                                          "OFPActionOutput": {
+                                             "len": 16,
+                                             "max_len": 65509,
+                                             "port": 2,
+                                             "type": 0
+                                          }
+                                       }
+                                    ],
+                                    "len": 24,
+                                    "type": 4
+                                 }
+                              }
+                           ],
+                           "length": 128,
+                           "match": {
+                              "OFPMatch": {
+                                 "length": 54,
+                                 "oxm_fields": [
+                                    {
+                                       "OXMTlv": {
+                                          "field": "in_port",
+                                          "mask": null,
+                                          "value": 1
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_src",
+                                          "mask": null,
+                                          "value": "00:00:00:00:00:01"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_dst",
+                                          "mask": null,
+                                          "value": "00:00:00:00:00:02"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_type",
+                                          "mask": null,
+                                          "value": 2048
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "ipv4_src",
+                                          "mask": null,
+                                          "value": "10.0.0.18"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "ipv4_dst",
+                                          "mask": null,
+                                          "value": "10.0.0.3"
+                                       }
+                                    }
+                                 ],
+                                 "type": 1
+                              }
+                           },
+                           "packet_count": 0,
+                           "priority": 1,
+                           "table_id": 1
+                        }
+                       },
+                       {
+                        "OFPFlowStats": {
+                           "byte_count": 745,
+                           "cookie": 0,
+                           "duration_nsec": 374000000,
+                           "duration_sec": 24,
+                           "flags": 0,
+                           "hard_timeout": 0,
+                           "idle_timeout": 0,
+                           "instructions": [
+                              {
+                                 "OFPInstructionActions": {
+                                    "actions": [
+                                       {
+                                          "OFPActionOutput": {
+                                             "len": 16,
+                                             "max_len": 65509,
+                                             "port": 2,
+                                             "type": 0
+                                          }
+                                       }
+                                    ],
+                                    "len": 24,
+                                    "type": 4
+                                 }
+                              }
+                           ],
+                           "length": 128,
+                           "match": {
+                              "OFPMatch": {
+                                 "length": 54,
+                                 "oxm_fields": [
+                                    {
+                                       "OXMTlv": {
+                                          "field": "in_port",
+                                          "mask": null,
+                                          "value": 1
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_src",
+                                          "mask": null,
+                                          "value": "00:00:00:00:00:01"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_dst",
+                                          "mask": null,
+                                          "value": "00:00:00:00:00:02"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_type",
+                                          "mask": null,
+                                          "value": 2048
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "ipv4_src",
+                                          "mask": null,
+                                          "value": "10.0.0.19"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "ipv4_dst",
+                                          "mask": null,
+                                          "value": "10.0.0.24"
+                                       }
+                                    }
+                                 ],
+                                 "type": 1
+                              }
+                           },
+                           "packet_count": 0,
+                           "priority": 1,
+                           "table_id": 1
+                        }
+                       },
+                       {
+                        "OFPFlowStats": {
+                           "byte_count": 299,
+                           "cookie": 0,
+                           "duration_nsec": 374000000,
+                           "duration_sec": 24,
+                           "flags": 0,
+                           "hard_timeout": 0,
+                           "idle_timeout": 0,
+                           "instructions": [
+                              {
+                                 "OFPInstructionActions": {
+                                    "actions": [
+                                       {
+                                          "OFPActionOutput": {
+                                             "len": 16,
+                                             "max_len": 65509,
+                                             "port": 2,
+                                             "type": 0
+                                          }
+                                       }
+                                    ],
+                                    "len": 24,
+                                    "type": 4
+                                 }
+                              }
+                           ],
+                           "length": 128,
+                           "match": {
+                              "OFPMatch": {
+                                 "length": 54,
+                                 "oxm_fields": [
+                                    {
+                                       "OXMTlv": {
+                                          "field": "in_port",
+                                          "mask": null,
+                                          "value": 1
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_src",
+                                          "mask": null,
+                                          "value": "00:00:00:00:00:01"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_dst",
+                                          "mask": null,
+                                          "value": "00:00:00:00:00:02"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_type",
+                                          "mask": null,
+                                          "value": 2048
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "ipv4_src",
+                                          "mask": null,
+                                          "value": "10.0.0.14"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "ipv4_dst",
+                                          "mask": null,
+                                          "value": "10.0.0.78"
+                                       }
+                                    }
+                                 ],
+                                 "type": 1
+                              }
+                           },
+                           "packet_count": 0,
+                           "priority": 1,
+                           "table_id": 1
+                        }
+                       },                    
+                       {
+                        "OFPFlowStats": {
+                           "byte_count": 921,
+                           "cookie": 0,
+                           "duration_nsec": 374000000,
+                           "duration_sec": 24,
+                           "flags": 0,
+                           "hard_timeout": 0,
+                           "idle_timeout": 0,
+                           "instructions": [
+                              {
+                                 "OFPInstructionActions": {
+                                    "actions": [
+                                       {
+                                          "OFPActionOutput": {
+                                             "len": 16,
+                                             "max_len": 65509,
+                                             "port": 2,
+                                             "type": 0
+                                          }
+                                       }
+                                    ],
+                                    "len": 24,
+                                    "type": 4
+                                 }
+                              }
+                           ],
+                           "length": 128,
+                           "match": {
+                              "OFPMatch": {
+                                 "length": 54,
+                                 "oxm_fields": [
+                                    {
+                                       "OXMTlv": {
+                                          "field": "in_port",
+                                          "mask": null,
+                                          "value": 1
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_src",
+                                          "mask": null,
+                                          "value": "00:00:00:00:00:01"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_dst",
+                                          "mask": null,
+                                          "value": "00:00:00:00:00:02"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_type",
+                                          "mask": null,
+                                          "value": 2048
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "ipv4_src",
+                                          "mask": null,
+                                          "value": "10.0.0.96"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "ipv4_dst",
+                                          "mask": null,
+                                          "value": "10.0.0.55"
+                                       }
+                                    }
+                                 ],
+                                 "type": 1
+                              }
+                           },
+                           "packet_count": 0,
+                           "priority": 1,
+                           "table_id": 1
+                        }
+                       },
+                       {
+                        "OFPFlowStats": {
+                           "byte_count": 567,
+                           "cookie": 0,
+                           "duration_nsec": 374000000,
+                           "duration_sec": 24,
+                           "flags": 0,
+                           "hard_timeout": 0,
+                           "idle_timeout": 0,
+                           "instructions": [
+                              {
+                                 "OFPInstructionActions": {
+                                    "actions": [
+                                       {
+                                          "OFPActionOutput": {
+                                             "len": 16,
+                                             "max_len": 65509,
+                                             "port": 2,
+                                             "type": 0
+                                          }
+                                       }
+                                    ],
+                                    "len": 24,
+                                    "type": 4
+                                 }
+                              }
+                           ],
+                           "length": 128,
+                           "match": {
+                              "OFPMatch": {
+                                 "length": 54,
+                                 "oxm_fields": [
+                                    {
+                                       "OXMTlv": {
+                                          "field": "in_port",
+                                          "mask": null,
+                                          "value": 1
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_src",
+                                          "mask": null,
+                                          "value": "00:00:00:00:00:01"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_dst",
+                                          "mask": null,
+                                          "value": "00:00:00:00:00:02"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_type",
+                                          "mask": null,
+                                          "value": 2048
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "ipv4_src",
+                                          "mask": null,
+                                          "value": "10.0.0.12"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "ipv4_dst",
+                                          "mask": null,
+                                          "value": "10.0.0.78"
+                                       }
+                                    }
+                                 ],
+                                 "type": 1
+                              }
+                           },
+                           "packet_count": 0,
+                           "priority": 1,
+                           "table_id": 1
+                        }
+                       },
+                       {
+                        "OFPFlowStats": {
+                           "byte_count": 938,
+                           "cookie": 0,
+                           "duration_nsec": 374000000,
+                           "duration_sec": 24,
+                           "flags": 0,
+                           "hard_timeout": 0,
+                           "idle_timeout": 0,
+                           "instructions": [
+                              {
+                                 "OFPInstructionActions": {
+                                    "actions": [
+                                       {
+                                          "OFPActionOutput": {
+                                             "len": 16,
+                                             "max_len": 65509,
+                                             "port": 2,
+                                             "type": 0
+                                          }
+                                       }
+                                    ],
+                                    "len": 24,
+                                    "type": 4
+                                 }
+                              }
+                           ],
+                           "length": 128,
+                           "match": {
+                              "OFPMatch": {
+                                 "length": 54,
+                                 "oxm_fields": [
+                                    {
+                                       "OXMTlv": {
+                                          "field": "in_port",
+                                          "mask": null,
+                                          "value": 1
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_src",
+                                          "mask": null,
+                                          "value": "00:00:00:00:00:01"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_dst",
+                                          "mask": null,
+                                          "value": "00:00:00:00:00:02"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_type",
+                                          "mask": null,
+                                          "value": 2048
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "ipv4_src",
+                                          "mask": null,
+                                          "value": "10.0.0.35"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "ipv4_dst",
+                                          "mask": null,
+                                          "value": "10.0.0.27"
+                                       }
+                                    }
+                                 ],
+                                 "type": 1
+                              }
+                           },
+                           "packet_count": 0,
+                           "priority": 1,
+                           "table_id": 1
+                        }
+                       },
+                       {
+                        "OFPFlowStats": {
+                           "byte_count": 2340,
+                           "cookie": 0,
+                           "duration_nsec": 374000000,
+                           "duration_sec": 24,
+                           "flags": 0,
+                           "hard_timeout": 0,
+                           "idle_timeout": 0,
+                           "instructions": [
+                              {
+                                 "OFPInstructionActions": {
+                                    "actions": [
+                                       {
+                                          "OFPActionOutput": {
+                                             "len": 16,
+                                             "max_len": 65509,
+                                             "port": 2,
+                                             "type": 0
+                                          }
+                                       }
+                                    ],
+                                    "len": 24,
+                                    "type": 4
+                                 }
+                              }
+                           ],
+                           "length": 128,
+                           "match": {
+                              "OFPMatch": {
+                                 "length": 54,
+                                 "oxm_fields": [
+                                    {
+                                       "OXMTlv": {
+                                          "field": "in_port",
+                                          "mask": null,
+                                          "value": 1
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_src",
+                                          "mask": null,
+                                          "value": "00:00:00:00:00:01"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_dst",
+                                          "mask": null,
+                                          "value": "00:00:00:00:00:02"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_type",
+                                          "mask": null,
+                                          "value": 2048
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "ipv4_src",
+                                          "mask": null,
+                                          "value": "10.0.0.57"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "ipv4_dst",
+                                          "mask": null,
+                                          "value": "10.0.0.64"
+                                       }
+                                    }
+                                 ],
+                                 "type": 1
+                              }
+                           },
+                           "packet_count": 0,
+                           "priority": 1,
+                           "table_id": 1
+                        }
+                       },
+                       {
+                        "OFPFlowStats": {
+                           "byte_count": 134,
+                           "cookie": 0,
+                           "duration_nsec": 374000000,
+                           "duration_sec": 24,
+                           "flags": 0,
+                           "hard_timeout": 0,
+                           "idle_timeout": 0,
+                           "instructions": [
+                              {
+                                 "OFPInstructionActions": {
+                                    "actions": [
+                                       {
+                                          "OFPActionOutput": {
+                                             "len": 16,
+                                             "max_len": 65509,
+                                             "port": 2,
+                                             "type": 0
+                                          }
+                                       }
+                                    ],
+                                    "len": 24,
+                                    "type": 4
+                                 }
+                              }
+                           ],
+                           "length": 128,
+                           "match": {
+                              "OFPMatch": {
+                                 "length": 54,
+                                 "oxm_fields": [
+                                    {
+                                       "OXMTlv": {
+                                          "field": "in_port",
+                                          "mask": null,
+                                          "value": 1
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_src",
+                                          "mask": null,
+                                          "value": "00:00:00:00:00:01"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_dst",
+                                          "mask": null,
+                                          "value": "00:00:00:00:00:02"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_type",
+                                          "mask": null,
+                                          "value": 2048
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "ipv4_src",
+                                          "mask": null,
+                                          "value": "10.0.0.1"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "ipv4_dst",
+                                          "mask": null,
+                                          "value": "10.0.0.87"
+                                       }
+                                    }
+                                 ],
+                                 "type": 1
+                              }
+                           },
+                           "packet_count": 0,
+                           "priority": 1,
+                           "table_id": 1
+                        }
+                       },
+                       {
+                        "OFPFlowStats": {
+                           "byte_count": 356,
+                           "cookie": 0,
+                           "duration_nsec": 374000000,
+                           "duration_sec": 24,
+                           "flags": 0,
+                           "hard_timeout": 0,
+                           "idle_timeout": 0,
+                           "instructions": [
+                              {
+                                 "OFPInstructionActions": {
+                                    "actions": [
+                                       {
+                                          "OFPActionOutput": {
+                                             "len": 16,
+                                             "max_len": 65509,
+                                             "port": 2,
+                                             "type": 0
+                                          }
+                                       }
+                                    ],
+                                    "len": 24,
+                                    "type": 4
+                                 }
+                              }
+                           ],
+                           "length": 128,
+                           "match": {
+                              "OFPMatch": {
+                                 "length": 54,
+                                 "oxm_fields": [
+                                    {
+                                       "OXMTlv": {
+                                          "field": "in_port",
+                                          "mask": null,
+                                          "value": 1
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_src",
+                                          "mask": null,
+                                          "value": "00:00:00:00:00:01"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_dst",
+                                          "mask": null,
+                                          "value": "00:00:00:00:00:02"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_type",
+                                          "mask": null,
+                                          "value": 2048
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "ipv4_src",
+                                          "mask": null,
+                                          "value": "10.0.0.8"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "ipv4_dst",
+                                          "mask": null,
+                                          "value": "10.0.0.91"
+                                       }
+                                    }
+                                 ],
+                                 "type": 1
+                              }
+                           },
+                           "packet_count": 0,
+                           "priority": 1,
+                           "table_id": 1
+                        }
+                       },
+                       {
+                        "OFPFlowStats": {
+                           "byte_count": 657,
+                           "cookie": 0,
+                           "duration_nsec": 374000000,
+                           "duration_sec": 24,
+                           "flags": 0,
+                           "hard_timeout": 0,
+                           "idle_timeout": 0,
+                           "instructions": [
+                              {
+                                 "OFPInstructionActions": {
+                                    "actions": [
+                                       {
+                                          "OFPActionOutput": {
+                                             "len": 16,
+                                             "max_len": 65509,
+                                             "port": 2,
+                                             "type": 0
+                                          }
+                                       }
+                                    ],
+                                    "len": 24,
+                                    "type": 4
+                                 }
+                              }
+                           ],
+                           "length": 128,
+                           "match": {
+                              "OFPMatch": {
+                                 "length": 54,
+                                 "oxm_fields": [
+                                    {
+                                       "OXMTlv": {
+                                          "field": "in_port",
+                                          "mask": null,
+                                          "value": 1
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_src",
+                                          "mask": null,
+                                          "value": "00:00:00:00:00:01"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_dst",
+                                          "mask": null,
+                                          "value": "00:00:00:00:00:02"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_type",
+                                          "mask": null,
+                                          "value": 2048
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "ipv4_src",
+                                          "mask": null,
+                                          "value": "10.0.0.43"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "ipv4_dst",
+                                          "mask": null,
+                                          "value": "10.0.0.10"
+                                       }
+                                    }
+                                 ],
+                                 "type": 1
+                              }
+                           },
+                           "packet_count": 0,
+                           "priority": 1,
+                           "table_id": 1
+                        }
+                       },
+                       {
+                        "OFPFlowStats": {
+                           "byte_count": 356,
+                           "cookie": 0,
+                           "duration_nsec": 374000000,
+                           "duration_sec": 24,
+                           "flags": 0,
+                           "hard_timeout": 0,
+                           "idle_timeout": 0,
+                           "instructions": [
+                              {
+                                 "OFPInstructionActions": {
+                                    "actions": [
+                                       {
+                                          "OFPActionOutput": {
+                                             "len": 16,
+                                             "max_len": 65509,
+                                             "port": 2,
+                                             "type": 0
+                                          }
+                                       }
+                                    ],
+                                    "len": 24,
+                                    "type": 4
+                                 }
+                              }
+                           ],
+                           "length": 128,
+                           "match": {
+                              "OFPMatch": {
+                                 "length": 54,
+                                 "oxm_fields": [
+                                    {
+                                       "OXMTlv": {
+                                          "field": "in_port",
+                                          "mask": null,
+                                          "value": 1
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_src",
+                                          "mask": null,
+                                          "value": "00:00:00:00:00:01"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_dst",
+                                          "mask": null,
+                                          "value": "00:00:00:00:00:02"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_type",
+                                          "mask": null,
+                                          "value": 2048
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "ipv4_src",
+                                          "mask": null,
+                                          "value": "10.0.0.8"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "ipv4_dst",
+                                          "mask": null,
+                                          "value": "10.0.0.91"
+                                       }
+                                    }
+                                 ],
+                                 "type": 1
+                              }
+                           },
+                           "packet_count": 0,
+                           "priority": 1,
+                           "table_id": 1
+                        }
+                       },
+                       {
+                        "OFPFlowStats": {
+                           "byte_count": 4506,
+                           "cookie": 0,
+                           "duration_nsec": 374000000,
+                           "duration_sec": 24,
+                           "flags": 0,
+                           "hard_timeout": 0,
+                           "idle_timeout": 0,
+                           "instructions": [
+                              {
+                                 "OFPInstructionActions": {
+                                    "actions": [
+                                       {
+                                          "OFPActionOutput": {
+                                             "len": 16,
+                                             "max_len": 65509,
+                                             "port": 2,
+                                             "type": 0
+                                          }
+                                       }
+                                    ],
+                                    "len": 24,
+                                    "type": 4
+                                 }
+                              }
+                           ],
+                           "length": 128,
+                           "match": {
+                              "OFPMatch": {
+                                 "length": 54,
+                                 "oxm_fields": [
+                                    {
+                                       "OXMTlv": {
+                                          "field": "in_port",
+                                          "mask": null,
+                                          "value": 1
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_src",
+                                          "mask": null,
+                                          "value": "00:00:00:00:00:01"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_dst",
+                                          "mask": null,
+                                          "value": "00:00:00:00:00:02"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "eth_type",
+                                          "mask": null,
+                                          "value": 2048
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "ipv4_src",
+                                          "mask": null,
+                                          "value": "10.0.0.45"
+                                       }
+                                    },
+                                    {
+                                       "OXMTlv": {
+                                          "field": "ipv4_dst",
+                                          "mask": null,
+                                          "value": "10.0.0.98"
+                                       }
+                                    }
+                                 ],
+                                 "type": 1
+                              }
+                           },
+                           "packet_count": 0,
+                           "priority": 1,
+                           "table_id": 1
+                        }
+                       }                                                                                                                                                                                                                                                                                                
+        ],
+       "flags": 0,
+       "type": 1
+    }
+ }
