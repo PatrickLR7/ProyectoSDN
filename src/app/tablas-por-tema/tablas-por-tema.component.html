@@ -1,0 +1,249 @@
+<div class="card bg-info text-white">
+    <div class="card-body">Tabla de flujo Educación</div>
+</div>
+
+<div class="table-responsive">
+  <table class="table table-striped table-sm">
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Cantidad Bytes</th>
+        <th>Ip Fuente</th>
+        <th>Ip Destino</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let element of tablaEducacion; index as i">
+        <td>{{i}}</td>
+        <td>{{element.cantBytes}}</td>
+        <td>{{element.ipFuente}}</td>
+        <td>{{element.ipDestino}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="card">
+    <div class="card-body">Tabla de flujo Blogs</div>
+</div>
+
+<div class="table-responsive">
+  <table class="table table-striped table-sm">
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Cantidad Bytes</th>
+        <th>Ip Fuente</th>
+        <th>Ip Destino</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let element of tablaBlogs; index as i">
+        <td>{{i}}</td>
+        <td>{{element.cantBytes}}</td>
+        <td>{{element.ipFuente}}</td>
+        <td>{{element.ipDestino}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="card bg-success text-white">
+    <div class="card-body">Tabla de flujo Deportes</div>
+</div>
+
+<div class="table-responsive">
+  <table class="table table-striped table-sm">
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Cantidad Bytes</th>
+        <th>Ip Fuente</th>
+        <th>Ip Destino</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let element of tablaDeportes; index as i">
+        <td>{{i}}</td>
+        <td>{{element.cantBytes}}</td>
+        <td>{{element.ipFuente}}</td>
+        <td>{{element.ipDestino}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="card bg-primary text-white">
+    <div class="card-body">Tabla de flujo Videojuegos</div>
+</div>
+
+<div class="table-responsive">
+  <table class="table table-striped table-sm">
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Cantidad Bytes</th>
+        <th>Ip Fuente</th>
+        <th>Ip Destino</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let element of tablaVideojuegos; index as i">
+        <td>{{i}}</td>
+        <td>{{element.cantBytes}}</td>
+        <td>{{element.ipFuente}}</td>
+        <td>{{element.ipDestino}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="card bg-warning text-white">
+    <div class="card-body">Tabla de flujo Wikis</div>
+</div>
+
+<div class="table-responsive">
+  <table class="table table-striped table-sm">
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Cantidad Bytes</th>
+        <th>Ip Fuente</th>
+        <th>Ip Destino</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let element of tablaWikis; index as i">
+        <td>{{i}}</td>
+        <td>{{element.cantBytes}}</td>
+        <td>{{element.ipFuente}}</td>
+        <td>{{element.ipDestino}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="card bg-danger text-white">
+    <div class="card-body">Tabla de flujo Foros</div>
+</div>
+
+<div class="table-responsive">
+  <table class="table table-striped table-sm">
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Cantidad Bytes</th>
+        <th>Ip Fuente</th>
+        <th>Ip Destino</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let element of tablaForos; index as i">
+        <td>{{i}}</td>
+        <td>{{element.cantBytes}}</td>
+        <td>{{element.ipFuente}}</td>
+        <td>{{element.ipDestino}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="card bg-secondary text-white">
+    <div class="card-body">Tabla de flujo Videos</div>
+</div>
+
+<div class="table-responsive">
+  <table class="table table-striped table-sm">
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Cantidad Bytes</th>
+        <th>Ip Fuente</th>
+        <th>Ip Destino</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let element of tablaVideos; index as i">
+        <td>{{i}}</td>
+        <td>{{element.cantBytes}}</td>
+        <td>{{element.ipFuente}}</td>
+        <td>{{element.ipDestino}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="card bg-dark text-white">
+    <div class="card-body">Tabla de flujo Noticias</div>
+</div>
+
+<div class="table-responsive">
+  <table class="table table-striped table-sm">
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Cantidad Bytes</th>
+        <th>Ip Fuente</th>
+        <th>Ip Destino</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let element of tablaNoticias; index as i">
+        <td>{{i}}</td>
+        <td>{{element.cantBytes}}</td>
+        <td>{{element.ipFuente}}</td>
+        <td>{{element.ipDestino}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="card bg-light text-dark">
+    <div class="card-body">Tabla de flujo Comercios</div>
+</div>
+
+<div class="table-responsive">
+  <table class="table table-striped table-sm">
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Cantidad Bytes</th>
+        <th>Ip Fuente</th>
+        <th>Ip Destino</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let element of tablaComercios; index as i">
+        <td>{{i}}</td>
+        <td>{{element.cantBytes}}</td>
+        <td>{{element.ipFuente}}</td>
+        <td>{{element.ipDestino}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="card bg-warning text-dark">
+    <div class="card-body">Tabla de flujo Música</div>
+</div>
+
+<div class="table-responsive">
+  <table class="table table-striped table-sm">
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Cantidad Bytes</th>
+        <th>Ip Fuente</th>
+        <th>Ip Destino</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let element of tablaMusica; index as i">
+        <td>{{i}}</td>
+        <td>{{element.cantBytes}}</td>
+        <td>{{element.ipFuente}}</td>
+        <td>{{element.ipDestino}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

@@ -1,0 +1,16 @@
+.table > thead {
+    background-color: rgb(20, 140, 177);
+    color: white;
+}
+
+.table > tbody > tr {
+    background-color: rgb(255, 255, 255);
+    color: black;
+
+}
+
+h3, .h3 {
+    color: white;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    padding: 10px
+}
