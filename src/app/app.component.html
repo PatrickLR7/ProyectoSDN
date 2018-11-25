@@ -9,40 +9,37 @@
       <nav class="col-md-2 d-none d-md-block sidebar">
         <div class="sidebar-sticky">
           <ul class="nav flex-column">
-            <li class="nav-item">
-              <a class="nav-link">
-                <span data-feather="home"></span>
-                Pagina Principal <span class="sr-only">(current)</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link">
-                <span data-feather="file"></span>
-                Tablas por Tema
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link">
-                <span data-feather="shopping-cart"></span>
-                Grafico
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link">
-                <span data-feather="users"></span>
-                Grafico Circular
-              </a>
-            </li>
+              <li class="nav-item">
+                  <a class="nav-link" routerLink = "/tablaGeneralComp">
+                    <span data-feather="home"></span>
+                    Tabla General <span class="sr-only">(current)</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link">
+                    <span data-feather="file"></span>
+                    Tablas por Tema
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link">
+                    <span data-feather="shopping-cart"></span>
+                    Grafico
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link">
+                    <span data-feather="users"></span>
+                    Grafico Circular
+                  </a>
+                </li>
           </ul>
-
         </div>
       </nav>
       <main role="main" class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4">
-          <app-tabla-general [tablaGeneral]=tablaGeneral></app-tabla-general>
+          <!--  <app-tabla-general [tablaGeneral]=tablaGeneral></app-tabla-general> -->
+        <router-outlet></router-outlet>
       </main>
-       <!-- <router-outlet></router-outlet> -->
-
-      
     </div>
   </div>
 </body>

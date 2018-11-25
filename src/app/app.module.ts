@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import {HttpClientModule} from '@angular/common/http'
 import {ServicioDatos} from './servicios/servicioDatos.service';
 import { TablaGeneralComponent } from './tabla-general/tabla-general.component';
+import { CompartirService } from './servicios/compartirD.service';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { TablaGeneralComponent } from './tabla-general/tabla-general.component';
     HttpClientModule
   ],
   providers: [
-    ServicioDatos
+    ServicioDatos,
+    CompartirService
   ],
   bootstrap: [AppComponent]
 })

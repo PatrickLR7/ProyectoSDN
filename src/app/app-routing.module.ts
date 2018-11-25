@@ -4,8 +4,7 @@ import { AppComponent } from './app.component';
 import { TablaGeneralComponent } from './tabla-general/tabla-general.component';
 
 const routes: Routes = [
-  {path: '', component: AppComponent},
-  {path: 'tablaGeneral', component: TablaGeneralComponent}
+  {path: 'tablaGeneralComp', component: TablaGeneralComponent}
 ];
 
 @NgModule({

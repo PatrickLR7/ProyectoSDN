@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { ServicioDatos} from './servicios/servicioDatos.service';
 import { TablaGeneralFila } from './tablaGeneralFila';
+import { Router } from '@angular/router'
+import { CompartirService } from './servicios/compartirD.service';
 
 @Component({
   selector: 'app-root',
@@ -16,14 +18,28 @@ export class AppComponent implements OnInit {
   //public tablaEducacion: Array<TablaGeneralFila>;
   //public tablaBlogs: Array<TablaGeneralFila>;
 
-  constructor(private servDatos: ServicioDatos){
+  opciones = [
+    {"id": 1, "name": "Pagina Principal"},
+    {"id": 2, "name": "Tablas por Tema"},
+    {"id": 3, "name": "Grafico"},
+    {"id": 4, "name": "Grafico Circular"}
+  ]
+
+  constructor(private servDatos: ServicioDatos, private router: Router, private servComp: CompartirService){
     this.pruebaDatos = [];
     this.tablaGeneral = [];
   }
 
   ngOnInit(): void{
     //llamar a pedir datos.
+    this.router.navigate(['']);
     this.pedirDatos();
+  }
+
+  onSelect(opcion){
+    if(opcion.name == "Pagina Principal"){
+      this.router.navigate(['/tablaGeneralComp',this.tablaGeneral]);
+    }
   }
 
   pedirDatos(): void{
@@ -49,5 +65,7 @@ export class AppComponent implements OnInit {
         this.tablaGeneral.push(tablaGeneralFila);
        }
     }
+
+    this.servComp.setDatos(this.tablaGeneral);
   }
 }
