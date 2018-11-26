@@ -1,11 +1,11 @@
 /* Encabezado de la pagina */
 .jumbotron {
   color: white;
-  padding: 80px;
+  background: linear-gradient(to bottom, #203A43, rgb(7, 54, 66));
   margin-bottom: 1px;
   border: 3px;
   border-style: solid;
-  border-color: rgb(20, 140, 177);
+  border-color: #19605b;
 }
 
 .jumbotron > h1, .h1{
@@ -20,14 +20,14 @@
 
 /* Barra izquierda */
 .sidebar {
-    background-color: rgb(7, 54, 66);
+    background: rgb(7, 54, 66);
     color: white;
     font-size: 20px;
     height: 100%;
     border-right: 3px solid;
     border-bottom: 3px solid;
     border-left: 3px solid;
-    border-color: rgb(20, 140, 177);
+    border-color: #19605b;
 }
 
 /* Barra lateral */
@@ -36,7 +36,7 @@
 }
 
 .table > thead {
-    background-color: rgb(20, 140, 177);
+    background-color: #19605b;
     color: white;
 }
 

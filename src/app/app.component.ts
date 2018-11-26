@@ -55,11 +55,6 @@ export class AppComponent implements OnInit {
     this.pedirDatos();
   }
 
-  onSelect(opcion){
-    if(opcion.name == "Pagina Principal"){
-      this.router.navigate(['/tablaGeneralComp',this.tablaGeneral]);
-    }
-  }
 
   pedirDatos(): void{
     this.servDatos.jsonServicio().then(response => {
@@ -87,6 +82,16 @@ export class AppComponent implements OnInit {
     }
 
     this.servComp.setDatos(this.tablaGeneral);
+    this.servComp.setDatosEducacion(this.tablaEducacion);
+    this.servComp.setDatosDeportes(this.tablaDeportes);
+    this.servComp.setDatosBlogs(this.tablaBlogs);
+    this.servComp.setDatosVideojuegos(this.tablaVideoJuegos);
+    this.servComp.setDatosForos(this.tablaForos);
+    this.servComp.setDatosWikis(this.tablaWikis);
+    this.servComp.setDatosComercios(this.tablaComercios);
+    this.servComp.setDatosVideos(this.tablaVideos);
+    this.servComp.setDatosMusica(this.tablaMusica);
+    this.servComp.setDatosNoticias(this.tablaNoticias);    
   }
 
   clasificarDatos(tablaGeneralFila): void{
