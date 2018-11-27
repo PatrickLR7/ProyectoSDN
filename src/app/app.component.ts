@@ -26,6 +26,8 @@ export class AppComponent implements OnInit {
   public tablaNoticias: Array<TablaGeneralFila>;
   public tablaComercios: Array<TablaGeneralFila>;
   public tablaMusica: Array<TablaGeneralFila>;
+  public datosGrafico: Array<number>;
+  public datosGraficoPie: Array<number>;
   
   opciones = [
     {"id": 1, "name": "Pagina Principal"},
@@ -47,6 +49,8 @@ export class AppComponent implements OnInit {
     this.tablaNoticias = [];
     this.tablaComercios = [];
     this.tablaMusica = [];
+    this.datosGrafico = [];
+    this.datosGraficoPie = [];
   }
 
   ngOnInit(): void{
@@ -91,63 +95,65 @@ export class AppComponent implements OnInit {
     this.servComp.setDatosComercios(this.tablaComercios);
     this.servComp.setDatosVideos(this.tablaVideos);
     this.servComp.setDatosMusica(this.tablaMusica);
-    this.servComp.setDatosNoticias(this.tablaNoticias);    
+    this.servComp.setDatosNoticias(this.tablaNoticias);
+    this.guardarDatosGrafico(); /* Se llama al metodo para calcular la grafica una vez que las tablas de cada categoria estan llenas. */ 
+    this.guardarDatosPie();  
   }
 
-  clasificarDatos(tablaGeneralFila): void{
+  clasificarDatos(tablaGeneralFila): void {
     let flujo = tablaGeneralFila;
     let tipos = this.clasificadorJ.clasificador;
     let resultado;
 
     let clasificado = false;
     
-    for(let i = 0; i < tipos.length && !clasificado; i++){
-      for(let j = 0; j < tipos[i].ips.length && !clasificado; j++){
-        if((flujo.ipFuente).toString() == tipos[i].ips[j]){
+    for(let i = 0; i < tipos.length && !clasificado; i++) {
+      for(let j = 0; j < tipos[i].ips.length && !clasificado; j++) {
+        if((flujo.ipFuente).toString() == tipos[i].ips[j]) {
           resultado = tipos[i].nombre;
           clasificado = true;
         }
       }
     }
 
-    switch(resultado){
-      case"educacion":{
+    switch(resultado) {
+      case"educacion": {
         this.tablaEducacion.push(tablaGeneralFila);
         break;
       }
-      case "blogs":{
+      case "blogs": {
         this.tablaBlogs.push(tablaGeneralFila);
         break;
       }
-      case "deportes":{
+      case "deportes": {
         this.tablaDeportes.push(tablaGeneralFila);
         break;
       }
-      case "videojuegos":{
+      case "videojuegos": {
         this.tablaVideoJuegos.push(tablaGeneralFila);
         break;
       }
-      case "wikis":{
+      case "wikis": {
         this.tablaWikis.push(tablaGeneralFila);
         break;
       }
-      case "foros":{
+      case "foros": {
         this.tablaForos.push(tablaGeneralFila);
         break;
       }
-      case "videos":{
+      case "videos": {
         this.tablaVideos.push(tablaGeneralFila);
         break;
       }
-      case "noticias":{
+      case "noticias": {
         this.tablaNoticias.push(tablaGeneralFila);
         break;
       }            
-      case "comercioelectronico":{
+      case "comercioelectronico": {
         this.tablaComercios.push(tablaGeneralFila);
         break;
       }      
-      case "musica":{
+      case "musica": {
         this.tablaMusica.push(tablaGeneralFila);
         break;
       }
@@ -156,4 +162,172 @@ export class AppComponent implements OnInit {
       }
     }
   }
+
+  /* Este metodo representa la cantidad total de bytes por cada categoria */
+  guardarDatosGrafico(): void {
+    let res = 0;
+
+    for(let i = 0; i < this.tablaEducacion.length; i++) {
+      res = res + this.tablaEducacion[i].cantBytes;
+    }
+    this.datosGrafico.push(res);
+    res = 0;
+
+
+    for(let i = 0; i < this.tablaBlogs.length; i++) {
+      res = res + this.tablaBlogs[i].cantBytes;
+    }
+    this.datosGrafico.push(res);
+    res = 0;
+
+
+    for(let i = 0; i < this.tablaDeportes.length; i++) {
+      res = res + this.tablaDeportes[i].cantBytes;
+    }
+    this.datosGrafico.push(res);
+    res = 0;
+
+
+    for(let i = 0; i < this.tablaVideoJuegos.length; i++) {
+      res = res + this.tablaVideoJuegos[i].cantBytes;
+    }
+    this.datosGrafico.push(res);
+    res = 0;
+
+
+    for(let i = 0; i < this.tablaWikis.length; i++) {
+      res = res + this.tablaWikis[i].cantBytes;
+    }
+    this.datosGrafico.push(res);
+    res = 0;
+
+
+    for(let i = 0; i < this.tablaForos.length; i++) {
+      res = res + this.tablaForos[i].cantBytes;
+    }
+    this.datosGrafico.push(res);
+    res = 0;
+
+
+    for(let i = 0; i < this.tablaVideos.length; i++) {
+      res = res + this.tablaVideos[i].cantBytes;
+    }
+    this.datosGrafico.push(res);
+    res = 0;
+
+
+    for(let i = 0; i < this.tablaNoticias.length; i++) {
+      res = res + this.tablaNoticias[i].cantBytes;
+    }
+    this.datosGrafico.push(res);
+    res = 0;
+
+
+    for(let i = 0; i < this.tablaComercios.length; i++) {
+      res = res + this.tablaComercios[i].cantBytes;
+    }
+    this.datosGrafico.push(res);
+    res = 0;
+
+
+    for(let i = 0; i < this.tablaMusica.length; i++) {
+      res = res + this.tablaMusica[i].cantBytes;
+    }
+    this.datosGrafico.push(res);
+    res = 0;
+
+
+    this.servComp.setDatosGrafico(this.datosGrafico); 
+  }
+
+  /* Este metodo representa el porcentaje de cada categoria sobre 100. */
+  guardarDatosPie(): void {
+    let res = 0;
+    let totalBytes = 0;
+
+    for(let i = 0; i < this.tablaGeneral.length; i++) {
+      totalBytes = totalBytes + this.tablaGeneral[i].cantBytes;
+    }
+
+    for(let i = 0; i < this.tablaEducacion.length; i++) {
+      res = res + this.tablaEducacion[i].cantBytes;
+    }
+    res = (res / totalBytes) * 100;
+    this.datosGraficoPie.push(res);
+    res = 0;
+
+
+    for(let i = 0; i < this.tablaBlogs.length; i++) {
+      res = res + this.tablaBlogs[i].cantBytes;
+    }
+    res = (res / totalBytes) * 100;
+    this.datosGraficoPie.push(res);
+    res = 0;
+
+
+    for(let i = 0; i < this.tablaDeportes.length; i++) {
+      res = res + this.tablaDeportes[i].cantBytes;
+    }
+    res = (res / totalBytes) * 100;;
+    this.datosGraficoPie.push(res);
+    res = 0;
+
+
+    for(let i = 0; i < this.tablaVideoJuegos.length; i++) {
+      res = res + this.tablaVideoJuegos[i].cantBytes;
+    }
+    res = (res / totalBytes) * 100;
+    this.datosGraficoPie.push(res);
+    res = 0;
+
+
+    for(let i = 0; i < this.tablaWikis.length; i++) {
+      res = res + this.tablaWikis[i].cantBytes;
+    }
+    res = (res / totalBytes) * 100;
+    this.datosGraficoPie.push(res);
+    res = 0;
+
+
+    for(let i = 0; i < this.tablaForos.length; i++) {
+      res = res + this.tablaForos[i].cantBytes;
+    }
+    res = (res / totalBytes) * 100;
+    this.datosGraficoPie.push(res);
+    res = 0;
+
+
+    for(let i = 0; i < this.tablaVideos.length; i++) {
+      res = res + this.tablaVideos[i].cantBytes;
+    }
+    res = (res / totalBytes) * 100;
+    this.datosGraficoPie.push(res);
+    res = 0;
+
+
+    for(let i = 0; i < this.tablaNoticias.length; i++) {
+      res = res + this.tablaNoticias[i].cantBytes;
+    }
+    res = (res / totalBytes) * 100;
+    this.datosGraficoPie.push(res);
+    res = 0;
+
+
+    for(let i = 0; i < this.tablaComercios.length; i++) {
+      res = res + this.tablaComercios[i].cantBytes;
+    }
+    res = (res / totalBytes) * 100;
+    this.datosGraficoPie.push(res);
+    res = 0;
+
+
+    for(let i = 0; i < this.tablaMusica.length; i++) {
+      res = res + this.tablaMusica[i].cantBytes;
+    }
+    res = (res / totalBytes) * 100;
+    this.datosGraficoPie.push(res);
+    res = 0;
+
+    this.servComp.setDatosGraficoPie(this.datosGraficoPie); 
+  } 
 }

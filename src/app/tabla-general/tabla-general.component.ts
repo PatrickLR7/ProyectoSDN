@@ -14,7 +14,6 @@ export class TablaGeneralComponent implements OnInit {
   //@Input() tablaGeneral: Array<TablaGeneralFila>;
   constructor(private route: ActivatedRoute, private servComp: CompartirService) {
     this.tablaGeneral = servComp.getDatos();
-
   }
 
   ngOnInit() {

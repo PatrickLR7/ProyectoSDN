@@ -14,44 +14,46 @@ export class CompartirService {
     private datosTablaNoticias: Array<TablaGeneralFila>;
     private datosTablaComercios: Array<TablaGeneralFila>;
     private datosTablaMusica: Array<TablaGeneralFila>;
+    private datosGrafico: Array<number>;
+    private datosGraficoPie: Array<number>;
 
-    setDatos(valor){
+    setDatos(valor) {
         this.datosTablaG = valor;
     }
 
-    getDatos(){
+    getDatos() {
         return this.datosTablaG;
     }
 
-    setDatosEducacion(valor){
+    setDatosEducacion(valor) {
         this.datosTablaEducacion = valor;
     }
 
-    getDatosEducacion(){
+    getDatosEducacion() {
         return this.datosTablaEducacion;
     }
 
-    setDatosBlogs(valor){
+    setDatosBlogs(valor) {
         this.datosTablaBlogs = valor;
     }
 
-    getDatosBlogs(){
+    getDatosBlogs() {
         return this.datosTablaBlogs;
     }
 
-    setDatosDeportes(valor){
+    setDatosDeportes(valor) {
         this.datosTablaDeportes = valor;
     }
 
-    getDatosDeportes(){
+    getDatosDeportes() {
         return this.datosTablaDeportes;
     }
 
-    setDatosVideojuegos(valor){
+    setDatosVideojuegos(valor) {
         this.datosTablaVideojuegos = valor;
     }
 
-    getDatosVideojuegos(){
+    getDatosVideojuegos() {
         return this.datosTablaVideojuegos;
     }
 
@@ -59,48 +61,63 @@ export class CompartirService {
         this.datosTablaWikis = valor;
     }
 
-    getDatosWikis(){
+    getDatosWikis() {
         return this.datosTablaWikis;
     }
 
-    setDatosForos(valor){
+    setDatosForos(valor) {
         this.datosTablaForos = valor;
     }
 
-    getDatosForos(){
+    getDatosForos() {
         return this.datosTablaForos;
     }
 
-    setDatosVideos(valor){
+    setDatosVideos(valor) {
         this.datosTablaVideos = valor;
     }
 
-    getDatosVideos(){
+    getDatosVideos() {
         return this.datosTablaVideos;
     }
 
-    setDatosNoticias(valor){
+    setDatosNoticias(valor) {
         this.datosTablaNoticias = valor;
     }
 
-    getDatosNoticias(){
+    getDatosNoticias() {
         return this.datosTablaNoticias;
     }
 
-    setDatosComercios(valor){
+    setDatosComercios(valor) {
         this.datosTablaComercios = valor;
     }
 
-    getDatosComercios(){
+    getDatosComercios() {
         return this.datosTablaComercios;
     }
 
-    setDatosMusica(valor){
+    setDatosMusica(valor) {
         this.datosTablaMusica = valor;
     }
 
-    getDatosMusica(){
+    getDatosMusica() {
         return this.datosTablaMusica;
     }
 
+    setDatosGrafico(valor) {
+        this.datosGrafico = valor;
+    }
+
+    getDatosGrafico() {
+        return this.datosGrafico;
+    }
+
+    setDatosGraficoPie(valor) {
+        this.datosGraficoPie = valor;
+    }
+
+    getDatosGraficoPie() {
+        return this.datosGraficoPie;
+    }
 } 
