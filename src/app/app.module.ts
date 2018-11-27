@@ -11,6 +11,7 @@ import { CompartirService } from './servicios/compartirD.service';
 import { TablasPorTemaComponent } from './tablas-por-tema/tablas-por-tema.component';
 import { GraficoBarraComponent } from './grafico-barra/grafico-barra.component';
 import { GraficoCircularComponent } from './grafico-circular/grafico-circular.component';
+import { PaginaPrincipalComponent } from './pagina-principal/pagina-principal.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { GraficoCircularComponent } from './grafico-circular/grafico-circular.co
     TablaGeneralComponent,
     TablasPorTemaComponent,
     GraficoBarraComponent,
-    GraficoCircularComponent
+    GraficoCircularComponent,
+    PaginaPrincipalComponent
   ],
   imports: [
     BrowserModule,

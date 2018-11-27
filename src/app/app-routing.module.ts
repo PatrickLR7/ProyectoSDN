@@ -5,12 +5,14 @@ import { TablaGeneralComponent } from './tabla-general/tabla-general.component';
 import { TablasPorTemaComponent } from './tablas-por-tema/tablas-por-tema.component';
 import { GraficoBarraComponent } from './grafico-barra/grafico-barra.component';
 import { GraficoCircularComponent } from './grafico-circular/grafico-circular.component'; 
+import { PaginaPrincipalComponent } from './pagina-principal/pagina-principal.component';
 
 const routes: Routes = [
   {path: 'tablaGeneralComp', component: TablaGeneralComponent},
   {path: 'tablasTemas', component: TablasPorTemaComponent},
   {path: 'grafico', component: GraficoBarraComponent},
-  {path: 'graficoCircular', component: GraficoCircularComponent}
+  {path: 'graficoCircular', component: GraficoCircularComponent},
+  {path: 'paginaprincipal', component: PaginaPrincipalComponent}
 ];
 
 @NgModule({

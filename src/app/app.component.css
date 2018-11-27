@@ -56,3 +56,11 @@ h3, .h3 {
     color: #fff;
     background-color:rgb(20, 140, 177);
 }
+
+/* Para el footer */
+.contenedorfooter {
+    margin-top: 120px;
+    padding: 100px;
+    background-color: rgb(1, 19, 24);
+    color: white;
+}

@@ -1,7 +1,7 @@
 <body ng-app="myApp">
   <div class="jumbotron text-center">
-    <h1>Visualizador de trafico de red</h1>
-    <p>Recopila informacion de interes para el administrador de red.</p>
+    <h1>Visualizador de tráfico de red</h1>
+    <p>Recopila información de interés para el administrador de red.</p>
   </div>
 
   <div class="container-fluid">
@@ -9,26 +9,23 @@
       <nav class="col-md-2 d-none d-md-block sidebar">
         <div class="sidebar-sticky">
           <ul class="nav flex-column">
-              <li class="nav-item">
-                  <a class="nav-link" routerLink = "/tablaGeneralComp">
-                    Tabla General
-                  </a>
-                </li>
-                <li class="nav-item" routerLink = "/tablasTemas">
-                  <a class="nav-link">
-                    Tablas por Tema
-                  </a>
-                </li>
-                <li class="nav-item" routerLink = "/grafico">
-                  <a class="nav-link">
-                    Grafico
-                  </a>
-                </li>
-                <li class="nav-item" routerLink = "/graficoCircular">
-                  <a class="nav-link">
-                    Grafico Circular
-                  </a>
-                </li>
+            <li class="nav-item">
+              <a class="nav-link" routerLink = "/paginaprincipal" [routerLinkActive]="'is-active'">
+                Página principal 
+              </a>
+              <a class="nav-link" routerLink = "/tablaGeneralComp">
+                Tabla General
+              </a>
+              <a class="nav-link" routerLink = "/tablasTemas">
+                Tablas por Tema
+              </a>
+              <a class="nav-link" routerLink = "/grafico">
+                Gráfico
+              </a>
+              <a class="nav-link" routerLink = "/graficoCircular">
+                Gráfico Circular
+              </a>
+            </li>
           </ul>
         </div>
       </nav>
@@ -36,6 +33,20 @@
           <!--  <app-tabla-general [tablaGeneral]=tablaGeneral></app-tabla-general> -->
         <router-outlet></router-outlet>
       </main>
+    </div>
+  </div>
+  
+  <div class="contenedorfooter">
+    <div>
+      <div class="text-center"> 
+        <div>
+          © 2018 Visualizador de tráfico de red
+        </div>
+        <div>
+          Powered by
+          <a href="#"> CodeMasters </a>
+        </div>
+      </div>
     </div>
   </div>
 </body>
