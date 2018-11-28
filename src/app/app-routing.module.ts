@@ -8,6 +8,7 @@ import { GraficoCircularComponent } from './grafico-circular/grafico-circular.co
 import { PaginaPrincipalComponent } from './pagina-principal/pagina-principal.component';
 
 const routes: Routes = [
+  {path: '', redirectTo: 'paginalprincipal', pathMatch: 'full'},
   {path: 'tablaGeneralComp', component: TablaGeneralComponent},
   {path: 'tablasTemas', component: TablasPorTemaComponent},
   {path: 'grafico', component: GraficoBarraComponent},

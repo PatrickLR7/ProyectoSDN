@@ -55,7 +55,7 @@ export class AppComponent implements OnInit {
 
   ngOnInit(): void{
     //llamar a pedir datos.
-    this.router.navigate(['']);
+    this.router.navigate(['paginaprincipal']);
     this.pedirDatos();
   }
 
